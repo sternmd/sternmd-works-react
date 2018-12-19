@@ -8,6 +8,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Work from './components/pages/Work';
 import Contact from './components/pages/Contact';
+import NotFound from './components/pages/NotFound';
 
 
 class App extends Component {
@@ -16,10 +17,11 @@ class App extends Component {
       <Router>
         <main>
           <Nav />
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/contact" component={Contact}/>
-          <Route path="/work" component={Work}/>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/work" component={Work} />
+          <Route path="*" component={NotFound} />
         </main>
       </Router>
     );
