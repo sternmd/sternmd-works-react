@@ -17,11 +17,13 @@ class App extends Component {
       <Router>
         <main>
           <Nav />
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/work" component={Work} />
-          <Route path="*" component={NotFound} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/work" component={Work} />
+            <Route path="*" component={NotFound} />
+          </Switch>
         </main>
       </Router>
     );
