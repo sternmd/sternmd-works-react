@@ -1,5 +1,5 @@
 #about, #burger-check, .burger {
-  opacity: 0;
+  opacity: 1;
   transition: all ease .75s;
   color: $white;
 }
@@ -21,13 +21,6 @@
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
-}
-
-.waving {
-  display: inline-block;
-  animation: waving 0.65s alternate infinite;
-  transform-origin: 50% 90%;
-  animation-timing-function: ease-in-out;
 }
 
 @include mobile {
