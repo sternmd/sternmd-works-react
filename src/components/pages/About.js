@@ -20,23 +20,23 @@ const About = () =>
           <br/>
           2016-2018 Frontend Developer at <a href="https://makingwaves.com/">Making Waves</a>
           <br/>
-          2015-2016 Digital Marketing Manager at <a href="https://www.perfectsearchmedia.com/">Perfect Search</a>
+          2015-2016 Digital Marketing & SEO Manager at <a href="https://www.perfectsearchmedia.com/">Perfect Search</a>
           <br/>
           2014-2015 SEO Analyst at Perfect Search
           <br/>
           <br/>
           <b>Entrepreneurship</b>
           <br/>
-          2015-present freelance web design & development
+          2015-present Freelance Web Design & Development
           <br/>
-          2012-present co-founder at <a href="http://studiomosaic.org">Studio Mosaic</a>
+          2012-present Co-founder at <a href="http://studiomosaic.org">Studio Mosaic</a>
           <br/>
-          2007-present founder at <a href="https://www.nimbusprints.com/">Nimbus Prints</a>
+          2007-present Founder at <a href="https://www.nimbusprints.com/">Nimbus Prints</a>
           <br/>
           <br/>
           <b>Internship</b>
           <br/>
-          2013 Web Analytics intern at <a href="https://www.cars.com/">Cars.com</a>
+          2013 Web Analytics Intern at <a href="https://www.cars.com/">Cars.com</a>
           <br/>
           <br/>
         </Column>
@@ -50,11 +50,11 @@ const About = () =>
           <br/>
           <b>Volunteer</b>
           <br/>
-          2018-present digital web volunteer at <a href="https://www.nps.gov">National Park Service</a>
+          2018-present Digital Web Volunteer at <a href="https://www.nps.gov">National Park Service</a>
           <br/>
-          2018-present dedicated contributor at <a href="http://jfwiki.org/index.php">Joe Frank Wiki</a>
+          2018-present Dedicated Contributor at <a href="http://jfwiki.org/index.php">Joe Frank Wiki</a>
           <br/>
-          2011-2014 director of electronic music at <a href="https://wmxm.org/">WMXM 88.9FM</a>
+          2011-2014 Director of Electronic Music at <a href="https://wmxm.org/">WMXM 88.9FM</a>
         </Column>
         <Column>
           <b>Technologies & Skills</b>
@@ -101,13 +101,13 @@ const About = () =>
           <br/>
           <b>DJ Mixes</b>
           <br />
-          Downtime Classic
+          2017 <a href="http://studiomosaic.org/side-trips-vol-1">Side Trips Vol. I</a>
           <br />
-          Tales From the Lost Jukebox
+          2017 <a href="http://studiomosaic.org/tales-from-the-lost-jukebox">Tales From the Lost Jukebox</a>
           <br />
-          Japanoise
+          2016 <a href="http://studiomosaic.org/downtime-classic">Downtime Classic</a>
           <br />
-          Side Trips Vol. I
+          2016 <a href="http://studiomosaic.org/japanoise">Japanoise</a>
         </Column>
       </Columns>
     </Container>
