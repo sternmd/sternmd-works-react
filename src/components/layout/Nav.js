@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 import Yinyang from './Yinyang';
 
 class Nav extends React.Component {
+
+  closeNav() {
+    let burger = document.querySelector('.burger');
+    burger.click();
+  }
+
   render() {
     return (
       <div>
@@ -14,10 +20,10 @@ class Nav extends React.Component {
 
         <nav className="navigation">
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/work">Work</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/" onClick={this.closeNav}>Home</Link></li>
+            <li><Link to="/about" onClick={this.closeNav}>About</Link></li>
+            <li><Link to="/work" onClick={this.closeNav}>Work</Link></li>
+            <li><Link to="/contact" onClick={this.closeNav}>Contact</Link></li>
           </ul>
         </nav>
       </div>
