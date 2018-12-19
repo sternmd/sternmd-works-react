@@ -88,12 +88,15 @@
   transition: all ease .75s;
 }
 
-body.invert {
-    color: #111 !important;
-    background-color: $white !important;
-}
+html.invert {
+  background-color: $white !important;
+  transition: all ease .75s;
 
-.invert {
+  body {
+      color: #111 !important;
+      background-color: $white !important;
+      transition: all ease .75s;
+  }
 
   .container {
     background-color: $white;
@@ -104,13 +107,19 @@ body.invert {
     color: $dark;
     transition: all ease .75s;
   }
+  .navigation {
+    background-color: $white;
+    transition: all ease .75s;
+  }
 
   .column {
     color: $dark;
+    transition: all ease .75s;
   }
 
   .burger {
     color: $dark;
+    transition: all ease .75s;
   }
 
   .built-with {

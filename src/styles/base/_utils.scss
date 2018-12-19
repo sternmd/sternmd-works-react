@@ -3,6 +3,11 @@
     transition: all ease .75s;
 }
 
+.grey {
+  color: $grey;
+  transition: all ease .75s;
+}
+
 .paddingTlg {
     padding-top: 100px;
     @include mobile {

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 const Home = () =>
   <div>
-    <section id="about">
       <Container>
         <Columns>
           <Column>
@@ -23,7 +22,6 @@ const Home = () =>
           </Column>
         </Columns>
       </Container>
-    </section>
   </div>
 
 export default Home;

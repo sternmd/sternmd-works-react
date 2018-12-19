@@ -4,7 +4,7 @@ class Yinyang extends React.Component {
 
   handleClick(e) {
     e.preventDefault();
-    document.body.classList.toggle('invert');
+    document.documentElement.classList.toggle('invert');
    }
 
   render() {

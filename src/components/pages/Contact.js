@@ -3,7 +3,6 @@ import { Container, Columns, Column } from 'bloomer';
 
 const Contact = () =>
   <div>
-    <section id="about">
       <Container>
         <Columns>
           <Column>
@@ -30,7 +29,6 @@ const Contact = () =>
           </Column>
         </Columns>
       </Container>
-    </section>
   </div>
 
 export default Contact;
