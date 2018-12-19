@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Container, Box  } from 'bloomer';
-import './App.css';
+
+import './styles/main.scss';
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Container>
-            <Box>Hello World!</Box>
+            <p>Hello World!</p>
           </Container>
         </div>
       </Router>
