@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Columns, Column } from 'bloomer';
 
 import Footer from '../layout/Footer';
+import BackArrow from '../layout/BackArrow';
 
 import ProjectBeatitudes from './work/beatitudes';
 import ProjectNimbusPrints from './work/nimbusprints';
@@ -57,6 +58,7 @@ const Work = () =>
         </Column>
       </Columns>
     </Container>
+    <BackArrow />
     <Footer />
   </div>
 

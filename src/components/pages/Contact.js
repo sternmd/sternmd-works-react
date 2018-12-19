@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Columns, Column } from 'bloomer';
 
+import BackArrow from '../layout/BackArrow';
+
 const Contact = () =>
   <div>
       <Container>
@@ -29,6 +31,7 @@ const Contact = () =>
           </Column>
         </Columns>
       </Container>
+      <BackArrow />
   </div>
 
 export default Contact;

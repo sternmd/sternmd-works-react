@@ -4,23 +4,12 @@
   color: $white;
 }
 
-.arrow {
+.back {
   z-index: 1;
   position: fixed;
-  font-size: 2rem;
+  font-size: 1rem;
   bottom: 2rem;
-  right: 2rem;
-  opacity: 0;
-  -moz-transition: all .25s linear;
-  -webkit-transition: all .25s linear;
-  transition: all .25s linear;
-}
-
-.arrow.down {
-    -ms-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+  left: 2rem;
 }
 
 @include mobile {

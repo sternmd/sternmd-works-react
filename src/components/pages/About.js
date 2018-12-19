@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Columns, Column } from 'bloomer';
 
 import Footer from '../layout/Footer';
+import BackArrow from '../layout/BackArrow';
 
 const About = () =>
   <div>
@@ -197,6 +198,7 @@ const About = () =>
         </Column>
       </Columns>
     </Container>
+    <BackArrow />
     <Footer />
   </div>
 
