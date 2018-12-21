@@ -73,10 +73,6 @@ class Albums extends React.Component {
         album: 'Exile On Main Street'
       },
       {
-        artist: 'Neil Young',
-        album: 'On The Beach'
-      },
-      {
         artist: 'Grateful Dead',
         album: 'In The Dark'
       },
@@ -113,8 +109,8 @@ class Albums extends React.Component {
         album: 'Axis Bold As Love'
       },
       {
-        artist: 'Cream',
-        album: 'Disraeli Gears'
+        artist: 'Derek and the Dominos',
+        album: 'Layla And Other Assorted Love Songs'
       },
       {
         artist: 'Thee Oh Sees',
@@ -203,6 +199,10 @@ class Albums extends React.Component {
       {
         artist: 'Frank Zappa',
         album: 'The Grand Wazoo'
+      },
+      {
+        artist: 'Dr. John',
+        album: 'Gris-Gris'
       }
     ];
 
@@ -253,7 +253,7 @@ class Albums extends React.Component {
           <Columns>
           <Column isPaddingless="true">
             {imageUrls.map(url => (
-                <img className="album" key={url["#text"]} src={url["#text"]} />
+                <img className="album" key={url["#text"]} src={url["#text"]} alt="" />
             ))}
             </Column>
           </Columns>

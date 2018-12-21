@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 import Footer from '../layout/Footer';
 import BackArrow from '../layout/BackArrow';
-import Albums from '../layout/Albums';
 
 const About = () =>
   <div>
