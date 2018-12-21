@@ -174,7 +174,6 @@ class Albums extends React.Component {
   storeAlbumImages(data) {
     // process image url in each response and return it
     let imageUrls = data.map(u => u.data.album.image[1]);
-    console.log(imageUrls)
     this.shuffleArray(imageUrls);
     return imageUrls;
   }
