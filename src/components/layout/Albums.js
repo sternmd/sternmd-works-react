@@ -17,6 +17,22 @@ class Albums extends React.Component {
         album: 'Fi'
       },
       {
+        artist: 'Autechre',
+        album: 'Amber'
+      },
+      {
+        artist: 'Sublime',
+        album: 'Sublime'
+      },
+      {
+        artist: 'Burial',
+        album: 'Untrue'
+      },
+      {
+        artist: 'Four Tet',
+        album: 'Pause'
+      },
+      {
         artist: 'GAS',
         album: 'Pop'
       },
@@ -54,7 +70,7 @@ class Albums extends React.Component {
       },
       {
         artist: 'Neil Young',
-        album: 'Everybody Knows This is Nowhere'
+        album: 'On The Beach'
       },
       {
         artist: 'Grateful Dead',
@@ -147,11 +163,43 @@ class Albums extends React.Component {
       {
         artist: 'The Upsetters',
         album: 'Super Ape'
-    },
-    {
-      artist: 'Frank Zappa',
-      album: 'The Grand Wazoo'
-    }
+      },
+      {
+        artist: 'Wilco',
+        album: 'Yankee Foxtrot Hotel'
+      },
+      {
+        artist: 'Neil Young',
+        album: 'On The Beach'
+      },
+      {
+        artist: 'Metallica',
+        album: '...And Justice For All'
+      },
+      {
+        artist: 'The Velvet Underground',
+        album: 'The Velvet Underground'
+      },
+      {
+        artist: 'Phish',
+        album: 'Junta'
+      },
+      {
+        artist: 'Ween',
+        album: 'White Pepper'
+      },
+      {
+        artist: 'Aphex Twin',
+        album: 'Selected Ambient Works'
+      },
+      {
+        artist: 'Grimes',
+        album: 'Visions'
+      },
+      {
+        artist: 'Frank Zappa',
+        album: 'The Grand Wazoo'
+      }
     ];
 
     this.state = {
@@ -173,7 +221,7 @@ class Albums extends React.Component {
 
   storeAlbumImages(data) {
     // process image url in each response and return it
-    let imageUrls = data.map(u => u.data.album.image[1]);
+    let imageUrls = data.map(u => u.data.album.image[3]);
     this.shuffleArray(imageUrls);
     return imageUrls;
   }
@@ -194,7 +242,7 @@ class Albums extends React.Component {
 
      return (
        <div>
-        <Container className="paddingTlg">
+        <Container>
           <p>More about me:</p>
           <br/>
           <b>Favorite Albums</b>

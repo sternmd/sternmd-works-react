@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Columns, Column } from 'bloomer';
+import { Link } from 'react-router-dom';
 
 import Footer from '../layout/Footer';
 import BackArrow from '../layout/BackArrow';
@@ -110,10 +111,12 @@ const About = () =>
           2016 <a href="http://studiomosaic.org/downtime-classic">Downtime Classic</a>
           <br />
           2016 <a href="http://studiomosaic.org/japanoise">Japanoise</a>
+          <br/>
+          <br/>
+          <Link to="/favorites">Selected Favorites</Link>
         </Column>
       </Columns>
     </Container>
-    <Albums />
     <BackArrow />
     <Footer />
   </div>

@@ -9,6 +9,7 @@ import About from './components/pages/About';
 import Work from './components/pages/Work';
 import Contact from './components/pages/Contact';
 import NotFound from './components/pages/NotFound';
+import Favorites from './components/pages/Favorites';
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/work" component={Work} />
+            <Route path="/favorites" component={Favorites} />
             <Route path="*" component={NotFound} />
           </Switch>
         </main>
