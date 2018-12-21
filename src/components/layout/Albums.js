@@ -17,6 +17,10 @@ class Albums extends React.Component {
         album: 'Fi'
       },
       {
+        artist: 'Talking Heads',
+        album: 'True Stories'
+      },
+      {
         artist: 'Autechre',
         album: 'Amber'
       },
@@ -221,7 +225,7 @@ class Albums extends React.Component {
 
   storeAlbumImages(data) {
     // process image url in each response and return it
-    let imageUrls = data.map(u => u.data.album.image[3]);
+    let imageUrls = data.map(u => u.data.album.image[2]);
     this.shuffleArray(imageUrls);
     return imageUrls;
   }
