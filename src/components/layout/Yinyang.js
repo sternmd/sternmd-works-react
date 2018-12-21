@@ -4,8 +4,8 @@ class Yinyang extends React.Component {
 
   handleClick(e) {
     e.preventDefault();
-    let burger = document.querySelector('.burger');
-    burger.click();
+    // let burger = document.querySelector('.burger');
+    // burger.click();
     document.documentElement.classList.toggle('invert');
    }
 

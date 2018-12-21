@@ -3,6 +3,7 @@ import { Container, Columns, Column } from 'bloomer';
 
 import Footer from '../layout/Footer';
 import BackArrow from '../layout/BackArrow';
+import Albums from '../layout/Albums';
 
 const About = () =>
   <div>
@@ -112,92 +113,7 @@ const About = () =>
         </Column>
       </Columns>
     </Container>
-
-    <Container className="paddingTlg">
-      <Columns>
-        <Column>
-            <p>
-              More about me:
-            </p>
-        </Column>
-      </Columns>
-      <Columns>
-        <Column>
-          <b>30 Defining Albums</b>
-          <br/>
-          Music From Big Pink
-          Fi
-          Moon Safari
-          Music Has the Right to Children
-          Blood On the Tracks / Desire
-          E. 1999 Eternal
-          Meddle
-          Dubside of the Moon
-          The Soft Bulletin
-          Pop / Konigsforst
-          Vantage Isle Sessions
-          Gorillaz / Laika Come Home
-          In The Dark
-          Europe 72
-          Loop Finding Jazz Records
-          Everybody Knows This is Nowhere / On The Beach
-          Exile On Main St
-          Siamese Dream
-          Sublime
-          Quebec
-          Quadrophenia
-          Axis Bold as Love
-          Hounds Foggy
-          Minimoon Star Villalobos
-          Surrealistic Pillow
-          Notorious Byrd Brothers
-          New Decade of Dub
-        </Column>
-        <Column>
-          <b>20 Defining Films</b>
-          <br />
-          Big Lebowski /
-          The Warriors /
-          Taxi Driver /
-          My Neighbor Totoro /
-          Dazed and Confused /
-          Life Aquatic /
-          Blue Velvet /
-          Motorcycle Diaries /
-          Y Tu Mama Tambien /
-          City of God /
-          Apocalypse Now /
-          Paris, Texas /
-          Lost in Translation /
-          Waking Life /
-          Sans Soleil /
-          Easy Rider /
-          Summer Wars /
-        </Column>
-
-        <Column>
-          <b>20 Defining Reads</b>
-          <br/>
-          Mans Search For Meaning
-          Confederacy Of Dunces
-          Of Mice and Men
-          SteppenWolf
-          Desolation Angels
-          The Dharma Bums
-          White Noise
-          The Stranger
-          Blue Highways
-          No Exit
-          RipRap
-          Box Office Poison
-          Invisible Man
-          Electric Kool Aid Acid Test
-          Black Hole
-          Zen Mind Beginner's Mind
-          Ghost World
-        </Column>
-      </Columns>
-    </Container>
+    <Albums />
     <BackArrow />
     <Footer />
   </div>
