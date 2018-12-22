@@ -3,8 +3,7 @@ import axios from 'axios';
 import { Container, Columns, Column } from 'bloomer';
 
 class Albums extends React.Component {
-    albums = [];
-
+    // albums = [];
     constructor(props) {
     super(props);
     this.albums = [
@@ -191,10 +190,6 @@ class Albums extends React.Component {
       {
         artist: 'Aphex Twin',
         album: 'Selected Ambient Works'
-      },
-      {
-        artist: 'Grimes',
-        album: 'Visions'
       },
       {
         artist: 'Frank Zappa',
