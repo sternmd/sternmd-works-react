@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import { Container, Columns, Column } from 'bloomer';
 
 class Films extends React.Component {
@@ -8,80 +8,88 @@ class Films extends React.Component {
     this.films = [
       {
         title: 'Big Lebowski',
-        id: '9780807014295'
+        id: 'tt0118715'
       },
-      {
-        title: 'The Warriors',
-        id: '9780679732761'
-      },
+      // {
+      //   title: 'The Warriors',
+      //   id: 'tt0080120'
+      // },
       {
         title: 'Taxi Driver',
-        id: '031242759X'
+        id: 'tt0075314'
       },
       {
         title: 'My Neighbor Totoro',
-        id: '0375714723'
+        id: 'tt0096283'
       },
       {
         title: 'City of God',
-        id: '9780224060882'
+        id: 'tt0317248'
       },
       {
         title: 'The Last Waltz',
-        id: '9780224060882'
+        id: 'tt0077838'
       },
       {
         title: 'Dazed and Confused',
-        id: '9781590308493'
+        id: 'tt0106677'
       },
       {
         title: 'Blue Velvet',
-        id: '9781891830198'
+        id: 'tt0090756'
       },
       {
         title: 'Life Aquatic',
-        id: '9780811205467'
+        id: 'tt0362270'
       },
       {
         title: 'Motorcycle Diaries',
-        id: '0679725164'
-      },
-      {
-        title: 'City of God',
-        id: '9780316218542'
+        id: 'tt0318462'
       },
       {
         title: 'Paris, Texas',
-        id: '0679725164'
+        id: 'tt0087884'
       },
       {
         title: 'Apocalypse Now',
-        id: '0679725164'
+        id: 'tt0078788'
       },
       {
         title: 'Slacker',
-        id: '0679725164'
+        id: 'tt0102943'
       },
       {
         title: 'Waking Life',
-        id: '0679725164'
+        id: 'tt0243017'
       },
       {
         title: 'Sans Soleil',
-        id: '0679725164'
+        id: 'tt0084628'
+      },
+      {
+        title: 'Koyaanisqatsi',
+        id: 'tt0085809'
       },
       {
         title: 'Easy Rider',
-        id: '0679725164'
+        id: 'tt0064276'
       },
       {
         title: 'Lost in Translation',
-        id: '0679725164'
+        id: 'tt0335266'
       },
       {
         title: 'Y Tu Mama Tambien',
-        id: '0679725164'
+        id: 'tt0245574'
       },
+      {
+        title: 'Y Tu Mama Tambien',
+        id: 'tt1474276'
+      },
+      {
+        title: 'Fargo',
+        id: 'tt0116282'
+      }
     ];
 
     this.state = {
@@ -90,25 +98,23 @@ class Films extends React.Component {
   }
 
   componentDidMount() {
-    let self = this;
-    const api_key = process.env.REACT_APP_OMDB_API_KEY;
+//     let self = this;
+//     const api_key = process.env.REACT_APP_OMDB_API_KEY;
+// // `https://img.omdbapi.com/?i=${u.id}&h=300&apikey=${api_key}`
+//
+//     let imageUrls = self.films.map(u => `https://img.omdbapi.com/?i=${u.id}&h=300&apikey=${api_key}`).join(' ');
+//     console.log('imageUrls: ', imageUrls);
+//     this.shuffleArray(imageUrls);
+    // self.setState({ imageUrls: imageUrls });
 
-    axios.all(this.films.map(u => axios.get(`https://img.omdbapi.com/?i=${u.id}&h=300&apikey=${api_key}`)))
-      .then(axios.spread((...data) => {
-        const imageUrls = this.storeFilmImages(data);
-        self.setState({ imageUrls: imageUrls });
-      }))
-      .catch((error) => {
-         console.log(error);
-      });
   }
-
-  storeFilmImages(data) {
-    // process image url in each response and return it
-    let imageUrls = data.map(u => u);
-    this.shuffleArray(imageUrls);
-    return imageUrls;
-  }
+  //
+  // storeFilmImages(data) {
+  //   // process image url in each response and return it
+  //   // let imageUrls = data.map(u => return `https://img.omdbapi.com/?i=${u.id}&h=300&apikey=${api_key}`);
+  //   this.shuffleArray(imageUrls);
+  //   return imageUrls;
+  // }
 
   shuffleArray(array) {
   let i = array.length - 1;
@@ -122,7 +128,7 @@ class Films extends React.Component {
   }
 
   render() {
-     const { imageUrls } = this.state;
+     const api_key = process.env.REACT_APP_OMDB_API_KEY;
 
      return (
        <div>
@@ -130,10 +136,10 @@ class Films extends React.Component {
          <br/>
          <b>Favorite Films</b>
          <Columns>
-         <Column isPaddingless="true">
-           {imageUrls.map(url => (
-             <img className="book" key={url} src={url} alt="" />
-           ))}
+          <Column isPaddingless="true">
+            {this.films.map(url => (
+              <img className="film" key={url.id} src={`https://img.omdbapi.com/?i=${url.id}&h=400&apikey=${api_key}`} alt="" />
+            ))}
            </Column>
          </Columns>
        </Container>

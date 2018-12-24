@@ -23,6 +23,10 @@ class Books extends React.Component {
         isbn: '0375714723'
       },
       {
+        title: 'Sun Also Rises',
+        isbn: '9788087888155'
+      },
+      {
         title: 'Ghost World',
         isbn: '9780224060882'
       },
@@ -37,10 +41,6 @@ class Books extends React.Component {
       {
         title: 'Turtle Island',
         isbn: '9780811205467'
-      },
-      {
-        title: 'No Exit',
-        isbn: '0679725164'
       },
       {
         title: 'Blue Highways',

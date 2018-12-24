@@ -1,7 +1,23 @@
-.album, .book {
-  padding-top: .75rem;
+@mixin favorites() {
   padding-left: 1rem;
+  height: auto;
   @include mobile {
     width: 100%;
   }
+}
+
+.album {
+  @include favorites();
+  padding-top: .75rem;
+  width: 20%;
+}
+
+.film {
+  @include favorites();
+  width: 20%;
+}
+
+.book {
+  @include favorites();
+  width: 12.5%;
 }
