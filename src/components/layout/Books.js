@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-// import { Container, Columns, Column } from 'bloomer';
+import { Container, Columns, Column } from 'bloomer';
 
 class Books extends React.Component {
     // books = [];
@@ -12,7 +12,7 @@ class Books extends React.Component {
         isbn: '9780807014295'
       },
       {
-        title: 'Inivisible Man',
+        title: 'Invisible Man',
         isbn: '9780679732761'
       },
       {
@@ -25,7 +25,7 @@ class Books extends React.Component {
       },
       {
         title: 'Ghost World',
-        isbn: '1560974273'
+        isbn: '9780224060882'
       },
       {
         title: 'Zen Mind',
@@ -65,7 +65,7 @@ class Books extends React.Component {
       },
       {
         title: 'Of Mice and Men',
-        isbn: '0140177396'
+        isbn: '9780140177398'
       },
       {
         title: 'A Confederacy of Dunces',
@@ -81,12 +81,11 @@ class Books extends React.Component {
   //
 
   componentDidMount() {
+    let self = this;
     axios.all(this.books.map(u => axios.get(`https://www.googleapis.com/books/v1/volumes?key=AIzaSyD5MPxz-v9bQ4s7cLw9B1d6BtCgabbG5XE&q=isbn:${u.isbn}`)))
       .then(axios.spread((...data) => {
-        console.log('data: ', data);
-        console.log('state: ', this.state);
         const imageUrls = this.storeBookImages(data);
-        this.setState({ imageUrls: imageUrls });
+        self.setState({ imageUrls: imageUrls });
       }))
       .catch((error) => {
          console.log(error);
@@ -112,11 +111,21 @@ class Books extends React.Component {
   }
 
   render() {
-     // const { imageUrls } = this.state;
+     const { imageUrls } = this.state;
 
      return (
        <div>
-
+       <Container>
+         <br/>
+         <b>Favorite Novels</b>
+         <Columns>
+         <Column isPaddingless="true">
+           {imageUrls.map(url => (
+             <img className="book" key={url} src={url} alt="" />
+           ))}
+           </Column>
+         </Columns>
+       </Container>
        </div>
      )
    }
