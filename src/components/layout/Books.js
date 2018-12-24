@@ -43,10 +43,10 @@ class Books extends React.Component {
         title: 'No Exit',
         isbn: '0679725164'
       },
-      // {
-      //   title: 'Blue Highways',
-      //   isbn: '0449211096'
-      // },
+      {
+        title: 'Blue Highways',
+        isbn: '9780316218542'
+      },
       {
         title: 'The Stranger',
         isbn: '9780679720201'
@@ -65,7 +65,7 @@ class Books extends React.Component {
       },
       {
         title: 'Of Mice and Men',
-        isbn: '9780140177398'
+        isbn: '9780140186420'
       },
       {
         title: 'A Confederacy of Dunces',
