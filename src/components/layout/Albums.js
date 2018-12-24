@@ -207,7 +207,9 @@ class Albums extends React.Component {
   }
 
   componentDidMount() {
-    axios.all(this.albums.map(u => axios.get(`https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=dc82d31afa4988b1d476e4c936f45bdd&artist=${u.artist}&album=${u.album}&format=json`)))
+    const api_key = process.env.REACT_APP_LASTFM_API_KEY;
+
+    axios.all(this.albums.map(u => axios.get(`https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=${api_key}&artist=${u.artist}&album=${u.album}&format=json`)))
       .then(axios.spread((...data) => {
         // console.log('state: ', this.state);
         const imageUrls = this.storeAlbumImages(data);

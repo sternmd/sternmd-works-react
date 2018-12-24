@@ -3,7 +3,6 @@ import axios from 'axios';
 import { Container, Columns, Column } from 'bloomer';
 
 class Books extends React.Component {
-    // books = [];
     constructor(props) {
     super(props);
     this.books = [
@@ -82,7 +81,9 @@ class Books extends React.Component {
 
   componentDidMount() {
     let self = this;
-    axios.all(this.books.map(u => axios.get(`https://www.googleapis.com/books/v1/volumes?key=AIzaSyD5MPxz-v9bQ4s7cLw9B1d6BtCgabbG5XE&q=isbn:${u.isbn}`)))
+    const api_key = process.env.REACT_APP_BOOKS_API_KEY;
+
+    axios.all(this.books.map(u => axios.get(`https://www.googleapis.com/books/v1/volumes?key=${api_key}&q=isbn:${u.isbn}`)))
       .then(axios.spread((...data) => {
         const imageUrls = this.storeBookImages(data);
         self.setState({ imageUrls: imageUrls });
