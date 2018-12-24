@@ -9,7 +9,7 @@ class ProjectRoygbiv extends React.Component {
         <MessageHeader>
           <p><a href="/roybiv">ROYGBIV</a></p>
         </MessageHeader>
-        <div class="message-image">
+        <div className="message-image">
           <a href="/roygbiv">
             <img src="images/roygbiv.png" alt="roygbiv game" />
           </a>
@@ -18,10 +18,10 @@ class ProjectRoygbiv extends React.Component {
           ROYGBIV is a color-matching puzzle game. The goal of the game is for a single player to determine the brightest colored row.
           <br/>
           <br/>
-          <span class="built-with">Built With: HTML/CSS/JavaScript</span>
-          <a class="button btn-github is-pulled-right" href="https://github.com/sternmd/sternmd.github.io/tree/master/roygbiv">
-            <span class="icon">
-              <i class="fab fa-github"></i>
+          <span className="built-with">Built With: HTML/CSS/JavaScript</span>
+          <a className="button btn-github is-pulled-right" href="https://github.com/sternmd/sternmd.github.io/tree/master/roygbiv">
+            <span className="icon">
+              <i className="fab fa-github"></i>
             </span>
             <span>GitHub</span>
           </a>

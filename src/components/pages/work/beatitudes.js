@@ -9,7 +9,7 @@ class ProjectBeatitudes extends React.Component {
         <MessageHeader>
           <p><a href="https://beatitudes.herokuapp.com/">Beatitudes</a></p>
         </MessageHeader>
-        <div class="message-image">
+        <div className="message-image">
           <a href="https://beatitudes.herokuapp.com/">
             <img src="images/beatitudes.png" alt="beatitudes" />
           </a>
@@ -18,10 +18,10 @@ class ProjectBeatitudes extends React.Component {
           Beatitudes is a web app that displays famous quotes and novels by popular Beat Generation writers. You dig?
           <br/>
           <br/>
-          <span class="built-with">Built With: Node/Express, HTML/CSS/JavaScript, Less</span>
-          <a class="button btn-github is-pulled-right" href="https://github.com/sternmd/beatitudes">
-            <span class="icon">
-              <i class="fab fa-github"></i>
+          <span className="built-with">Built With: Node/Express, HTML/CSS/JavaScript, Less</span>
+          <a className="button btn-github is-pulled-right" href="https://github.com/sternmd/beatitudes">
+            <span className="icon">
+              <i className="fab fa-github"></i>
             </span>
             <span>GitHub</span>
           </a>

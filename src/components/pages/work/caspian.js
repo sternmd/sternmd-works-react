@@ -9,7 +9,7 @@ class ProjectCaspian extends React.Component {
         <MessageHeader>
           <p><a href="https://caspian-app.herokuapp.com">Caspian App</a></p>
         </MessageHeader>
-        <div class="message-image">
+        <div className="message-image">
           <a href="https://caspian-app.herokuapp.com">
             <img src="images/caspian.png" alt="caspian app" />
           </a>
@@ -18,10 +18,10 @@ class ProjectCaspian extends React.Component {
           My first Ruby/Sinatra project. Caspian is an emergency management app, for any trip. Caspian stores and presents important In-Case-of-Emergency info and is meant to be used while outdoors or camping.
           <br/>
           <br/>
-          <span class="built-with">Built With: Ruby/Sinatra, HTML/CSS/JavaScript</span>
-          <a class="button btn-github is-pulled-right" href="https://github.com/alexekim/project_caspian">
-            <span class="icon">
-              <i class="fab fa-github"></i>
+          <span className="built-with">Built With: Ruby/Sinatra, HTML/CSS/JavaScript</span>
+          <a className="button btn-github is-pulled-right" href="https://github.com/alexekim/project_caspian">
+            <span className="icon">
+              <i className="fab fa-github"></i>
             </span>
             <span>GitHub</span>
           </a>

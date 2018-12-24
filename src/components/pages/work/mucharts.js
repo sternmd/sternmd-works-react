@@ -9,7 +9,7 @@ class ProjectMuCharts extends React.Component {
         <MessageHeader>
           <p><a href="https://github.com/Cams-Headphones-2/Client-app">/Mu/sic Charts</a></p>
         </MessageHeader>
-        <div class="message-image">
+        <div className="message-image">
           <a href="https://github.com/Cams-Headphones-2/Client-app">
             <img src="images/mucharts.png" alt="mucharts" />
           </a>
@@ -18,10 +18,10 @@ class ProjectMuCharts extends React.Component {
           /Mu/sic Charts is an app that allows users to build and share music album flowcharts.
           <br/>
           <br/>
-          <span class="built-with">Built With: Node/Express, React, MongoDB, HTML/CSS/JS</span>
-          <a class="button btn-github is-pulled-right" href="https://github.com/Cams-Headphones-2/Client-app">
-            <span class="icon">
-              <i class="fab fa-github"></i>
+          <span className="built-with">Built With: Node/Express, React, MongoDB, HTML/CSS/JS</span>
+          <a className="button btn-github is-pulled-right" href="https://github.com/Cams-Headphones-2/Client-app">
+            <span className="icon">
+              <i className="fab fa-github"></i>
             </span>
             <span>GitHub</span>
           </a>
