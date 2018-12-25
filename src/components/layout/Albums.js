@@ -1,9 +1,9 @@
 import React from 'react';
 import axios from 'axios';
 import { Container, Columns, Column } from 'bloomer';
+import Spinner from './Spinner';
 
 class Albums extends React.Component {
-    // albums = [];
     constructor(props) {
     super(props);
     this.albums = [
@@ -202,18 +202,23 @@ class Albums extends React.Component {
     ];
 
     this.state = {
-      imageUrls: []
+      imageUrls: [],
+      loading: false
     }
   }
 
   componentDidMount() {
     const api_key = process.env.REACT_APP_LASTFM_API_KEY;
+    this.setState({ loading: true });
 
     axios.all(this.albums.map(u => axios.get(`https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=${api_key}&artist=${u.artist}&album=${u.album}&format=json`)))
       .then(axios.spread((...data) => {
         // console.log('state: ', this.state);
         const imageUrls = this.storeAlbumImages(data);
-        this.setState({ imageUrls: imageUrls });
+        this.setState({
+            imageUrls: imageUrls,
+            loading: false
+         });
       }))
       .catch((error) => {
          console.log(error);
@@ -239,7 +244,7 @@ class Albums extends React.Component {
 }
 
   render() {
-     const { imageUrls } = this.state;
+     const { imageUrls, loading } = this.state;
 
      return (
        <div>
@@ -249,7 +254,7 @@ class Albums extends React.Component {
           <b>Favorite Albums</b>
           <Columns>
           <Column isPaddingless="true">
-            {imageUrls.map(url => (
+            {loading ? <Spinner /> : imageUrls.map(url => (
                 <img className="album" key={url["#text"]} src={url["#text"]} alt="" />
             ))}
             </Column>

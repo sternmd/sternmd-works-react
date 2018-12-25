@@ -21,10 +21,10 @@ const Contact = () =>
             </p>
 
             <p className="paddingTlg">
-              <a href="mailto:stern.maxwell@gmail.com">email</a> /
-              <a href="https://www.linkedin.com/in/maxwellstern">linkedin</a> /
-              <a href="https://github.com/sternmd">github</a> /
-              <a href="https://codepen.io/sternmd/">codepen</a>
+              <a href="mailto:stern.maxwell@gmail.com">email </a>
+               / <a href="https://www.linkedin.com/in/maxwellstern">linkedin </a>
+               / <a href="https://github.com/sternmd">github </a>
+               / <a href="https://codepen.io/sternmd/">codepen</a>
             </p>
             <br />
             <br />

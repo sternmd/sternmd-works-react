@@ -1,5 +1,4 @@
 import React from 'react';
-// import axios from 'axios';
 import { Container, Columns, Column } from 'bloomer';
 
 class Films extends React.Component {
@@ -10,10 +9,6 @@ class Films extends React.Component {
         title: 'Big Lebowski',
         id: 'tt0118715'
       },
-      // {
-      //   title: 'The Warriors',
-      //   id: 'tt0080120'
-      // },
       {
         title: 'Taxi Driver',
         id: 'tt0075314'
@@ -96,25 +91,6 @@ class Films extends React.Component {
       imageUrls: []
     }
   }
-
-  componentDidMount() {
-//     let self = this;
-//     const api_key = process.env.REACT_APP_OMDB_API_KEY;
-// // `https://img.omdbapi.com/?i=${u.id}&h=300&apikey=${api_key}`
-//
-//     let imageUrls = self.films.map(u => `https://img.omdbapi.com/?i=${u.id}&h=300&apikey=${api_key}`).join(' ');
-//     console.log('imageUrls: ', imageUrls);
-//     this.shuffleArray(imageUrls);
-    // self.setState({ imageUrls: imageUrls });
-
-  }
-  //
-  // storeFilmImages(data) {
-  //   // process image url in each response and return it
-  //   // let imageUrls = data.map(u => return `https://img.omdbapi.com/?i=${u.id}&h=300&apikey=${api_key}`);
-  //   this.shuffleArray(imageUrls);
-  //   return imageUrls;
-  // }
 
   shuffleArray(array) {
   let i = array.length - 1;

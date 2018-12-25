@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { Container, Columns, Column } from 'bloomer';
+import Spinner from './Spinner';
 
 class Books extends React.Component {
     constructor(props) {
@@ -73,7 +74,8 @@ class Books extends React.Component {
     ];
 
     this.state = {
-      imageUrls: []
+      imageUrls: [],
+      loading: false
     }
   }
 
@@ -82,11 +84,15 @@ class Books extends React.Component {
   componentDidMount() {
     let self = this;
     const api_key = process.env.REACT_APP_BOOKS_API_KEY;
+    self.setState({ loading: true });
 
     axios.all(this.books.map(u => axios.get(`https://www.googleapis.com/books/v1/volumes?key=${api_key}&q=isbn:${u.isbn}`)))
       .then(axios.spread((...data) => {
         const imageUrls = this.storeBookImages(data);
-        self.setState({ imageUrls: imageUrls });
+        self.setState({
+          imageUrls: imageUrls,
+          loading: false
+         });
       }))
       .catch((error) => {
          console.log(error);
@@ -112,7 +118,7 @@ class Books extends React.Component {
   }
 
   render() {
-     const { imageUrls } = this.state;
+     const { imageUrls, loading } = this.state;
 
      return (
        <div>
@@ -121,7 +127,7 @@ class Books extends React.Component {
          <b>Favorite Books</b>
          <Columns>
          <Column isPaddingless="true">
-           {imageUrls.map(url => (
+           {loading ? <Spinner /> : imageUrls.map(url => (
              <img className="book" key={url} src={url} alt="" />
            ))}
            </Column>
