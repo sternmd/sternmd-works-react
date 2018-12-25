@@ -19,15 +19,14 @@ const Work = () =>
           <Column>
             <p>
               A selection of websites, web apps, games, and personal projects that I've worked on in the past.
-              <br />
-              <br />
-              For more work please visit my <a href="https://github.com/sternmd">github</a>.
             </p>
+            <p>For more work lease visit my <a href="https://github.com/sternmd">github</a>.</p>
           </Column>
         </Columns>
       </Container>
-
-      <Container className="paddingTlg">
+      <br/>
+      <br/>
+      <Container>
         <Columns>
           <Column>
             <ProjectBeatitudes />
