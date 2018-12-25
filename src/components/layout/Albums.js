@@ -16,6 +16,14 @@ class Albums extends React.Component {
         album: 'Fi'
       },
       {
+        artist: 'The Who',
+        album: 'Whos Next'
+      },
+      {
+        artist: 'Grateful Dead',
+        album: 'Workingmans Dead'
+      },
+      {
         artist: 'Talking Heads',
         album: 'True Stories'
       },

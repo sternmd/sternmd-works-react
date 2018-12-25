@@ -9,7 +9,9 @@ import Films from '../layout/Films';
 const Favorites = () =>
   <div>
       <Albums />
+      <br/>
       <Films />
+      <br/>
       <Books />
       <BackArrow />
       <Footer />
