@@ -10,6 +10,7 @@ import ProjectStudioMosaic from './work/studiomosaic';
 import ProjectRoygbiv from './work/roygbiv';
 import ProjectMuCharts from './work/mucharts';
 import ProjectCaspian from './work/caspian';
+import Widgets from './work/Widgets';
 
 const Work = () =>
   <div>
@@ -58,6 +59,9 @@ const Work = () =>
         </Column>
       </Columns>
     </Container>
+    <br/>
+    <br/>
+    <Widgets />
     <BackArrow />
     <Footer />
   </div>

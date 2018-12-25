@@ -39,13 +39,14 @@ p {
 }
 
 a {
-  color: $scarlet;
+  color: $scarlet !important;
   transition: all ease .75s;
+  text-decoration: none !important;
 }
 
 a:hover {
   transition: all .5s ease;
-  color: $blue;
+  color: $blue !important;
 }
 
 .container {
