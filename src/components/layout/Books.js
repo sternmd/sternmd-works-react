@@ -23,7 +23,7 @@ class Books extends React.Component {
         isbn: '0375714723'
       },
       {
-        title: 'Sun Also Rises',
+        title: 'The Sun Also Rises',
         isbn: '9788087888155'
       },
       {
@@ -118,7 +118,7 @@ class Books extends React.Component {
        <div>
        <Container>
          <br/>
-         <b>Favorite Novels</b>
+         <b>Favorite Books</b>
          <Columns>
          <Column isPaddingless="true">
            {imageUrls.map(url => (
