@@ -5,7 +5,7 @@ class BackArrow extends React.Component {
   render() {
     return (
       <div className="back">
-      <Link to="/"><i className="fas fa-arrow-left"></i> back</Link>
+      <Link to="/"><i className="fas fa-arrow-left"></i> Back</Link>
       </div>
     )
   }

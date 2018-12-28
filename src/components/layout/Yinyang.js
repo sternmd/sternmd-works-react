@@ -24,7 +24,7 @@ class Yinyang extends React.Component {
                   <g>
                     <use xlinkHref="#circlePath" fill="none"/>
                     <text fill="#FFF">
-                        <textPath xlinkHref="#circlePath">c a r p e d i e m</textPath>
+                        <textPath xlinkHref="#circlePath">C A R P E D I E M</textPath>
                     </text>
                   </g>
                 </svg>
