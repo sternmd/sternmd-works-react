@@ -33,7 +33,7 @@ class Books extends React.Component {
       },
       {
         title: 'Zen Mind',
-        isbn: '9781590308493'
+        isbn: '9781590302675'
       },
       {
         title: 'Box Office Poison',
