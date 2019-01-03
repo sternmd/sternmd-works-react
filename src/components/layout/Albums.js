@@ -25,7 +25,7 @@ class Albums extends React.Component {
       },
       {
         artist: 'Talking Heads',
-        album: 'True Stories'
+        album: 'Fear of Music'
       },
       {
         artist: 'Autechre',
