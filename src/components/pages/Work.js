@@ -18,7 +18,7 @@ const Work = () =>
         <Columns>
           <Column>
             <p>
-              A selection of websites, web apps, games, and personal projects that I've worked on in the past.
+              A selection of passion projects, web apps, games, and personal websites that I've worked on in the past.
             </p>
             <p>For more work please visit my <a href="https://github.com/sternmd">github</a>.</p>
           </Column>
