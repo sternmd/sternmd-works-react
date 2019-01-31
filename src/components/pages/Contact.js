@@ -8,16 +8,7 @@ const Contact = () =>
       <Container>
         <Columns>
           <Column>
-            <p>Contact me if:
-              <br/>
-              <br/>
-              <span className="red">1.</span> You have a project or idea that I can help you with.
-              <br/>
-              <span className="red">2.</span> There's a wish to get me involved in some creative work.
-              <br/>
-              <span className="red">3.</span> You want your website to be optimized for search engines.
-              <br/>
-              <span className="red">4.</span> You just want to say "Hi!"
+            <p>My services include web design and development, SEO, digital marketing, and brand identity. I particularly enjoy working with startups, nonprofits, and small business owners. I believe that honest dialogue with clients and hard work are the keys to creating a remarkable product.
             </p>
 
             <p className="paddingTlg">
