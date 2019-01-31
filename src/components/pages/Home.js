@@ -9,7 +9,7 @@ const Home = () =>
           <Column>
             <p>Maxwell Stern</p>
             <br />
-            <p>Frontend web developer and designer</p>
+            <p>Web developer and designer</p>
             <p>Co-founder &amp; artist at <a href="http://studiomosaic.org/">Studio Mosaic</a></p>
             <p>Founder & screenprinter at <a href="https://www.nimbusprints.com/">Nimbus Prints</a></p>
             <br />
