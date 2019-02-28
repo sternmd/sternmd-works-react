@@ -101,7 +101,7 @@ class Albums extends React.Component {
       },
       {
         artist: 'Smashing Pumpkins',
-        album: 'Siamese Dream'
+        album: 'Gish'
       },
       {
         artist: 'Gorillaz',
@@ -152,12 +152,12 @@ class Albums extends React.Component {
         album: 'Loop Finding Jazz Records'
       },
       {
-        artist: 'My Bloody Valentine',
-        album: 'Loveless'
+        artist: 'The Rolling Stones',
+        album: 'Sticky Fingers'
       },
       {
-        artist: 'Miles Davis',
-        album: 'Bitches Brew'
+        artist: 'David Bowie',
+        album: 'Low'
       },
       {
         artist: 'Bone Thugs-N-Harmony',
@@ -172,8 +172,8 @@ class Albums extends React.Component {
         album: 'Super Ape'
       },
       {
-        artist: 'Wilco',
-        album: 'Yankee Foxtrot Hotel'
+        artist: 'Boards of Canada',
+        album: 'Geogaddi'
       },
       {
         artist: 'Neil Young',
@@ -189,7 +189,7 @@ class Albums extends React.Component {
       },
       {
         artist: 'Phish',
-        album: 'Junta'
+        album: 'Billy Breathes'
       },
       {
         artist: 'Ween',
