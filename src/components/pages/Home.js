@@ -10,8 +10,8 @@ const Home = () =>
             <p>Maxwell Stern</p>
             <br />
             <p>Web developer and designer</p>
-            <p>Co-founder &amp; artist at <a href="http://studiomosaic.org/">Studio Mosaic</a></p>
-            <p>Founder & screenprinter at <a href="https://www.nimbusprints.com/">Nimbus Prints</a></p>
+            <p>Co-founder &amp; artist at <a target="_blank" href="http://studiomosaic.org/">Studio Mosaic</a></p>
+            <p>Founder & screenprinter at <a target="_blank" href="https://www.nimbusprints.com/">Nimbus Prints</a></p>
             <br />
             <br />
             <p><Link to="/about">About</Link> / <Link to="/work">Work</Link> / <Link to="/contact">Contact</Link></p>
