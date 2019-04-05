@@ -11,7 +11,7 @@ const About = () =>
       <Columns>
         <Column>
         <p>
-          Hello, I am a frontend web developer with 5+ years of professional agency experience. I build mobile-friendly websites and apps for clients from a range of fields. I am eager to learn new technologies and best design practices. Whether it’s full-time work, a freelance job, or an art project – I'm open for collaborations of all kind.
+          Hello, I am a frontend web developer with 5+ years of professional agency experience living in Portland. I build mobile-friendly websites and apps for clients from a range of fields. I am eager to learn new technologies and best design practices. Whether it’s full-time work, a freelance job, or an art project – I'm open for collaborations of all kind.
           </p>
         </Column>
       </Columns>
@@ -112,7 +112,7 @@ const About = () =>
           2016 <a href="http://studiomosaic.org/japanoise">Japanoise</a>
           <br/>
           <br/>
-          <a href="https://euphorm.bandcamp.com/">Electronic Music</a>
+          <a href="https://euphorm.bandcamp.com/">My Electronic Music</a>
           <br/>
           <Link to="/favorites">My Favorite Things</Link>
         </Column>
