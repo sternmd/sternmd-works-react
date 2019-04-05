@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2e1f91dd3b9704573b1d",
+    "revision": "2a65ced7f0dd7bbc3efa",
     "url": "./static/css/main.0c7091e8.chunk.css"
   },
   {
-    "revision": "2e1f91dd3b9704573b1d",
-    "url": "./static/js/main.2e1f91dd.chunk.js"
+    "revision": "2a65ced7f0dd7bbc3efa",
+    "url": "./static/js/main.2a65ced7.chunk.js"
   },
   {
     "revision": "030372c94daeb02a1dd3",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "./static/media/theinhardtreg-webfont.7e5114c8.ttf"
   },
   {
-    "revision": "9163f1023050a8e582a3622dcd6335c2",
+    "revision": "adf2111f06eee132bf0413b00e52d1a4",
     "url": "./index.html"
   }
 ];
