@@ -114,7 +114,7 @@ const About = () =>
           <br/>
           <a href="https://euphorm.bandcamp.com/">Electronic Music</a>
           <br/>
-          <Link to="/favorites">Selected Favorites</Link>
+          <Link to="/favorites">My Favorite Things</Link>
         </Column>
       </Columns>
     </Container>
