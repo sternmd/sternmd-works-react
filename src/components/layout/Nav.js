@@ -23,6 +23,7 @@ class Nav extends React.Component {
             <li><Link to="/" onClick={this.closeNav}>Home</Link></li>
             <li><Link to="/about" onClick={this.closeNav}>About</Link></li>
             <li><Link to="/work" onClick={this.closeNav}>Work</Link></li>
+            <li><Link to="/services" onClick={this.closeNav}>Services</Link></li>
             <li><Link to="/contact" onClick={this.closeNav}>Contact</Link></li>
           </ul>
         </nav>
