@@ -72,8 +72,8 @@ class Albums extends React.Component {
         album: 'Soft Bulletin'
       },
       {
-        artist: 'Ween',
-        album: 'Quebec'
+        artist: 'Audion',
+        album: 'Suckfish'
       },
       {
         artist: 'The Rolling Stones',

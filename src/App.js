@@ -8,6 +8,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Work from './components/pages/Work';
 import Contact from './components/pages/Contact';
+import Services from './components/pages/Services';
 import NotFound from './components/pages/NotFound';
 import Favorites from './components/pages/Favorites';
 
@@ -22,6 +23,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            <Route path="/services" component={Services} />
             <Route path="/work" component={Work} />
             <Route path="/favorites" component={Favorites} />
             <Route path="*" component={NotFound} />

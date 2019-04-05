@@ -8,6 +8,30 @@ class Widgets extends React.Component {
       <Container>
       <Columns>
       <Column>
+        <Message isColor="dark">
+          <MessageHeader>
+            <p><a href="https://github.com/sternmd/react-nba-spa">NBA SPA</a></p>
+          </MessageHeader>
+          <div className="message-image">
+            <a href="https://github.com/sternmd/react-nba-spa">
+              <img src="images/nba-spa.png" alt="NBA SPA" />
+            </a>
+          </div>
+          <MessageBody>
+            A practice mobile single-page application (SPA) using React. Uses JSON dummy data to pull stats from basketball teams, players, and videos.
+            <br/>
+            <br/>
+            <span className="built-with">Built With: React</span>
+            <a className="button btn-github is-pulled-right" href="https://github.com/sternmd/react-nba-spa">
+              <span className="icon">
+                <i className="fab fa-github"></i>
+              </span>
+              <span>GitHub</span>
+            </a>
+          </MessageBody>
+        </Message>
+      </Column>
+      <Column>
       <Message isColor="dark">
         <MessageHeader>
           <p><a href="https://codepen.io/sternmd/full/rGKBrJ">Pomodoro Timer</a></p>

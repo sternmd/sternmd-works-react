@@ -14,7 +14,7 @@ const Home = () =>
             <p>Founder & screenprinter at <a target="_blank" href="https://www.nimbusprints.com/">Nimbus Prints</a></p>
             <br />
             <br />
-            <p><Link to="/about">About</Link> / <Link to="/work">Work</Link> / <Link to="/contact">Contact</Link></p>
+            <p><Link to="/about">About</Link> / <Link to="/work">Work</Link> / <Link to="/services">Services</Link> / <Link to="/contact">Contact</Link></p>
 
           </Column>
         </Columns>
