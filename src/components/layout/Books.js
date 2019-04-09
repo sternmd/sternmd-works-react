@@ -25,7 +25,7 @@ class Books extends React.Component {
       },
       {
         title: 'The Sun Also Rises',
-        isbn: '9788087888155'
+        isbn: '9780684718088'
       },
       {
         title: 'Ghost World',

@@ -100,7 +100,7 @@ class Albums extends React.Component {
         album: 'Alcachofa'
       },
       {
-        artist: 'Smashing Pumpkins',
+        artist: 'The Smashing Pumpkins',
         album: 'Gish'
       },
       {
