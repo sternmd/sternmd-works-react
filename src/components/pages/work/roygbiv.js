@@ -7,7 +7,7 @@ class ProjectRoygbiv extends React.Component {
       <div>
       <Message isColor="dark">
         <MessageHeader>
-          <p><a href="/roybiv">ROYGBIV</a></p>
+          <p><a href="/roygbiv">ROYGBIV</a></p>
         </MessageHeader>
         <div className="message-image">
           <a href="/roygbiv">
