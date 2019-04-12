@@ -7,10 +7,10 @@ class ProjectNimbusPrints extends React.Component {
       <div>
       <Message isColor="dark">
         <MessageHeader>
-          <p><a href="http://nimbusprints.com">Nimbus Prints</a></p>
+          <p><a href="http://nimbusprints.com" target="_blank">Nimbus Prints</a></p>
         </MessageHeader>
         <div className="message-image">
-          <a href="http://nimbusprints.com">
+          <a href="http://nimbusprints.com" target="_blank">
             <img src="images/nimbus.jpg" alt="nimbus prints" />
           </a>
         </div>

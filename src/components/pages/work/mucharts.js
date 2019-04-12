@@ -7,10 +7,10 @@ class ProjectMuCharts extends React.Component {
       <div>
       <Message isColor="dark">
         <MessageHeader>
-          <p><a href="https://github.com/Cams-Headphones-2/Client-app">/Mu/sic Charts</a></p>
+          <p><a href="https://github.com/Cams-Headphones-2/Client-app" target="_blank">/Mu/sic Charts</a></p>
         </MessageHeader>
         <div className="message-image">
-          <a href="https://github.com/Cams-Headphones-2/Client-app">
+          <a href="https://github.com/Cams-Headphones-2/Client-app" target="_blank">
             <img src="images/mucharts.png" alt="mucharts" />
           </a>
         </div>
@@ -19,7 +19,7 @@ class ProjectMuCharts extends React.Component {
           <br/>
           <br/>
           <span className="built-with">Built With: Node/Express, React, MongoDB, HTML/CSS/JS</span>
-          <a className="button btn-github is-pulled-right" href="https://github.com/Cams-Headphones-2/Client-app">
+          <a className="button btn-github is-pulled-right" href="https://github.com/Cams-Headphones-2/Client-app" target="_blank">
             <span className="icon">
               <i className="fab fa-github"></i>
             </span>

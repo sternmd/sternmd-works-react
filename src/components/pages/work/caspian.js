@@ -7,10 +7,10 @@ class ProjectCaspian extends React.Component {
       <div>
       <Message isColor="dark">
         <MessageHeader>
-          <p><a href="https://caspian-app.herokuapp.com">Caspian App</a></p>
+          <p><a href="https://caspian-app.herokuapp.com" target="_blank">Caspian App</a></p>
         </MessageHeader>
         <div className="message-image">
-          <a href="https://caspian-app.herokuapp.com">
+          <a href="https://caspian-app.herokuapp.com" target="_blank">
             <img src="images/caspian.png" alt="caspian app" />
           </a>
         </div>
@@ -19,7 +19,7 @@ class ProjectCaspian extends React.Component {
           <br/>
           <br/>
           <span className="built-with">Built With: Ruby/Sinatra, HTML/CSS/JavaScript</span>
-          <a className="button btn-github is-pulled-right" href="https://github.com/alexekim/project_caspian">
+          <a className="button btn-github is-pulled-right" href="https://github.com/alexekim/project_caspian" target="_blank">
             <span className="icon">
               <i className="fab fa-github"></i>
             </span>

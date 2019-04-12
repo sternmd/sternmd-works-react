@@ -7,10 +7,10 @@ class NbaSPA extends React.Component {
       <div>
       <Message isColor="dark">
         <MessageHeader>
-          <p><a href="https://github.com/sternmd/react-nba-spa">NBA SPA</a></p>
+          <p><a href="https://github.com/sternmd/react-nba-spa" target="_blank">NBA SPA</a></p>
         </MessageHeader>
         <div className="message-image">
-          <a href="https://github.com/sternmd/react-nba-spa">
+          <a href="https://github.com/sternmd/react-nba-spa" target="_blank">
             <img src="images/nba-spa.png" alt="NBA SPA" />
           </a>
         </div>
@@ -19,7 +19,7 @@ class NbaSPA extends React.Component {
           <br/>
           <br/>
           <span className="built-with">Built With: React</span>
-          <a className="button btn-github is-pulled-right" href="https://github.com/sternmd/react-nba-spa">
+          <a className="button btn-github is-pulled-right" href="https://github.com/sternmd/react-nba-spa" target="_blank">
             <span className="icon">
               <i className="fab fa-github"></i>
             </span>
