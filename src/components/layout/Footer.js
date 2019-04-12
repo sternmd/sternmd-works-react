@@ -8,7 +8,7 @@ class Footer extends React.Component {
         <Container className="paddingTlg">
           <Columns>
             <Column className="grey">
-                	&copy; Maxwell Stern, {(new Date().getFullYear())}. Built with <a href="https://reactjs.org/">React</a> and <a href="https://bloomer.js.org/#/">Bloomer</a>.
+                	&copy; Maxwell Stern, {(new Date().getFullYear())}. Built with <a href="https://reactjs.org/" target="_blank">React</a> and <a href="https://bloomer.js.org/#/" target="_blank">Bloomer</a>.
                 <br/>
                 <br/>
             </Column>

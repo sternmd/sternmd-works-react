@@ -22,7 +22,7 @@ const About = () =>
           <br/>
           2016-2018 Frontend Developer at <a href="https://makingwaves.com/">Making Waves</a>
           <br/>
-          2015-2016 Digital Marketing & SEO Manager at <a href="https://www.perfectsearchmedia.com/">Perfect Search</a>
+          2015-2016 Digital Marketing & SEO Manager at <a href="https://www.perfectsearchmedia.com/" target="_blank">Perfect Search</a>
           <br/>
           2014-2015 SEO Analyst at Perfect Search
           <br/>
@@ -31,14 +31,14 @@ const About = () =>
           <br/>
           2015-present Freelance Web Design & Development
           <br/>
-          2012-present Co-founder at <a href="http://studiomosaic.org">Studio Mosaic</a>
+          2012-present Co-founder at <a href="http://studiomosaic.org" target="_blank">Studio Mosaic</a>
           <br/>
-          2007-present Founder at <a href="https://www.nimbusprints.com/">Nimbus Prints</a>
+          2007-present Founder at <a href="https://www.nimbusprints.com/" target="_blank">Nimbus Prints</a>
           <br/>
           <br/>
           <b>Internship</b>
           <br/>
-          2013 Web Analytics Intern at <a href="https://www.cars.com/">Cars.com</a>
+          2013 Web Analytics Intern at <a href="https://www.cars.com/" target="_blank">Cars.com</a>
           <br/>
           <br/>
         </Column>
@@ -52,11 +52,11 @@ const About = () =>
           <br/>
           <b>Volunteer</b>
           <br/>
-          2018-present Digital Web Volunteer at <a href="https://www.nps.gov">National Park Service</a>
+          2018-present Digital Web Volunteer at <a href="https://www.nps.gov" target="_blank">National Park Service</a>
           <br/>
-          2018-present Dedicated Contributor at <a href="http://jfwiki.org/index.php">Joe Frank Wiki</a>
+          2018-present Dedicated Contributor at <a href="http://jfwiki.org/index.php" target="_blank">Joe Frank Wiki</a>
           <br/>
-          2011-2014 Director of Electronic Music at <a href="https://wmxm.org/">WMXM 88.9FM</a>
+          2011-2014 Director of Electronic Music at <a href="https://wmxm.org/" target="_blank">WMXM 88.9FM</a>
         </Column>
         <Column>
           <b>Technologies & Skills</b>
@@ -89,32 +89,34 @@ const About = () =>
         <Column>
           <b>Exhibitions</b>
           <br/>
-          2017 <a href="http://studiomosaic.org/blog/studio-mosaic-opens-shop">Studio Mosaic Opens Shop</a>
+          2017 <a href="http://studiomosaic.org/blog/studio-mosaic-opens-shop" target="_blank">Studio Mosaic Opens Shop</a>
           <br/>
-          2015 <a href="http://studiomosaic.org/blog/everythings-for-sale">Everything's For Sale</a>
+          2015 <a href="http://studiomosaic.org/blog/everythings-for-sale" target="_blank">Everything's For Sale</a>
           <br/>
           <br/>
           <b>Publications</b>
           <br/>
-          2013 <a href="http://studiomosaic.org/ser-libre">Ser Libre</a> by Patrico Rizzo-Vast
+          2013 <a href="http://studiomosaic.org/ser-libre" target="_blank">Ser Libre</a> by Patrico Rizzo-Vast
           <br/>
-          2012 <a href="http://studiomosaic.org/paradox-lost">Paradox Lost</a> by Maxwell Stern
+          2012 <a href="http://studiomosaic.org/paradox-lost" target="_blank">Paradox Lost</a> by Maxwell Stern
           <br/>
           <br/>
           <b>DJ Mixes</b>
           <br />
-          2017 <a href="http://studiomosaic.org/side-trips-vol-1">Side Trips Vol. I</a>
+          2017 <a href="http://studiomosaic.org/side-trips-vol-1" target="_blank">Side Trips Vol. I</a>
           <br />
-          2017 <a href="http://studiomosaic.org/tales-from-the-lost-jukebox">Tales From the Lost Jukebox</a>
+          2017 <a href="http://studiomosaic.org/tales-from-the-lost-jukebox" target="_blank">Tales From the Lost Jukebox</a>
           <br />
-          2016 <a href="http://studiomosaic.org/downtime-classic">Downtime Classic</a>
+          2016 <a href="http://studiomosaic.org/downtime-classic" target="_blank">Downtime Classic</a>
           <br />
-          2016 <a href="http://studiomosaic.org/japanoise">Japanoise</a>
+          2016 <a href="http://studiomosaic.org/japanoise" target="_blank">Japanoise</a>
           <br/>
           <br/>
-          <a href="https://euphorm.bandcamp.com/">My Electronic Music</a>
+          <a href="https://euphorm.bandcamp.com/" target="_blank">My Electronic Music</a>
           <br/>
           <Link to="/favorites">My Favorite Things</Link>
+          <br/>
+          <a href="https://dreamsofvinyl.tumblr.com/" target="_blank">My Music Blog</a>
         </Column>
       </Columns>
     </Container>
