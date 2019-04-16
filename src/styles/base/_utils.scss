@@ -24,3 +24,8 @@
     pointer-events: none;
     cursor: none;
 }
+
+.is-vertical-center {
+  display: flex;
+  align-items: center;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Columns, Column } from 'bloomer';
+import { Container, Columns, Column, Image } from 'bloomer';
 import { Link } from 'react-router-dom';
 
 import Footer from '../layout/Footer';
@@ -9,9 +9,12 @@ const About = () =>
   <div>
     <Container>
       <Columns>
-        <Column>
+        <Column isSize='1/3'>
+          <Image className="is-hidden-mobile" src="/images/sternmd-bw-min.jpg" />
+        </Column>
+        <Column isSize='2/3'>
         <p>
-          Hello, I am a frontend web developer with 5+ years of professional agency experience living in Portland. I build mobile-friendly websites and apps for clients from a range of fields. I am eager to learn new technologies and best design practices. Whether it’s full-time work, a freelance job, or an art project – I'm open for collaborations of all kind.
+          Hello, I am a frontend web developer with 5+ years of professional agency experience living in Portland. I build mobile-friendly websites and apps for clients from a range of fields. I am eager to learn new technologies and best design practices. Whether it’s full-time work, a freelance/contract job, or any other creative project – I'm open for collaborations of all kind.
           </p>
         </Column>
       </Columns>

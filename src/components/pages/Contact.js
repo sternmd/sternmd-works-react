@@ -18,7 +18,6 @@ const Contact = () =>
               <a href="mailto:stern.maxwell@gmail.com">email </a>
                / <a target="_blank" href="https://www.linkedin.com/in/maxwellstern">linkedin </a>
                / <a target="_blank" href="https://github.com/sternmd">github </a>
-               / <a target="_blank" href="https://codepen.io/sternmd/">codepen</a>
             </p>
             <br />
             <br />
