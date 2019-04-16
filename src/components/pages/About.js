@@ -115,6 +115,8 @@ const About = () =>
           2016 <a href="http://studiomosaic.org/japanoise" target="_blank">Japanoise</a>
           <br/>
           <br/>
+          <b>More about me:</b>
+          <br />
           <a href="https://euphorm.bandcamp.com/" target="_blank">My Electronic Music</a>
           <br/>
           <Link to="/favorites">My Favorite Things</Link>

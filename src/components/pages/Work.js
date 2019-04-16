@@ -26,7 +26,7 @@ const Work = () =>
 
             <p><span class="red">Some clients I've worked with include:</span>
             <br/>
-            Electrolux, Frigidaire, Rain For Rent, Blue Buffalo, Landry's, Verahill, Verisk Analytics, Tucker Rocky, Symetra, EMF, TransCanada, New York Film Academy (SEO), Columbia School of Social Work (SEO)</p>
+            Electrolux, Frigidaire, Rain For Rent, Blue Buffalo, Landry's, Verahill, Verisk Analytics, Tucker Rocky, Symetra, Emergency Medicine Foundation, TransCanada, New York Film Academy (SEO), Columbia School of Social Work (SEO)</p>
           </Column>
         </Columns>
       </Container>
