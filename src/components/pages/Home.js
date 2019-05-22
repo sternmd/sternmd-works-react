@@ -12,7 +12,7 @@ const Home = () =>
             <p>Web developer and designer</p>
             <p>Co-founder &amp; artist at <a target="_blank" href="http://studiomosaic.org/">Studio Mosaic</a></p>
             <p>Founder & screenprinter at <a target="_blank" href="https://www.nimbusprints.com/">Nimbus Prints</a></p>
-            <p>Daily music blogger/geek at <a target="_blank" href="https://dreamsofvinyl.tumblr.com/">Dreams of Vinyl</a></p>
+            <p>Daily music blogger/geek at <a target="_blank" href="https://dreamsofvinyl.net/">Dreams of Vinyl</a></p>
             <br />
             <br />
             <p><Link to="/about">About</Link> / <Link to="/work">Work</Link> / <Link to="/services">Services</Link> / <Link to="/contact">Contact</Link></p>

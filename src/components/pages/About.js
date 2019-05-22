@@ -121,7 +121,9 @@ const About = () =>
           <br/>
           <Link to="/favorites">My Favorite Things</Link>
           <br/>
-          <a href="https://dreamsofvinyl.tumblr.com/" target="_blank">My Music Blog</a>
+          <a href="https://dreamsofvinyl.net/" target="_blank">My Music Blog</a>
+          <br/>
+          <a href="https://github.com/sternmd" target="_blank">Github</a>
         </Column>
       </Columns>
     </Container>
