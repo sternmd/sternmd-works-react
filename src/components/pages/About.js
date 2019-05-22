@@ -25,7 +25,7 @@ const About = () =>
           <br/>
           2016-2018 Frontend Developer at <a href="https://makingwaves.com/">Making Waves</a>
           <br/>
-          2015-2016 Digital Marketing & SEO Manager at <a href="https://www.perfectsearchmedia.com/" target="_blank">Perfect Search</a>
+          2015-2016 Digital Marketing & SEO Manager at <a href="https://www.perfectsearchmedia.com/" target="_blank">Perfect Search Media</a>
           <br/>
           2014-2015 SEO Analyst at Perfect Search
           <br/>
@@ -48,12 +48,14 @@ const About = () =>
         <Column>
           <b>Education</b>
           <br/>
-          2016 Full-Stack Web Development Immersive at General Assembly
+          2016 Full-Stack Web Development Immersive at <a target="_blank" href="https://generalassemb.ly/">General Assembly</a>
           <br/>
-          2010-2014 Bachelor of Arts (B.A.), Finance, Music at Lake Forest College
+          2010-2014 Bachelor of Arts (B.A.), Finance, Music at <a target="_blank" href="https://www.lakeforest.edu/">Lake Forest College</a>
           <br/>
           <br/>
           <b>Volunteer</b>
+          <br/>
+          2019-present Trail Ambassador at <a href="https://www.forestparkconservancy.org/" target="_blank">Forest Park Conservancy</a>
           <br/>
           2018-present Digital Web Volunteer at <a href="https://www.nps.gov" target="_blank">National Park Service</a>
           <br/>
@@ -66,17 +68,17 @@ const About = () =>
           <br/>
           Languages/Frameworks:
           <br/>
-          HTML, CSS (SCSS/LESS), JavaScript, jQuery, Vue, React, Node.js / Express
+          HTML, CSS (SCSS/LESS), JavaScript, jQuery, Vue, React, Node/Express (MERN)
           <br/>
           <br/>
           Build Tools & Version Control:
           <br/>
-          Git, Jira (Agile), NPM, Grunt, Gulp, Webpack, Babel, Visual Studio
+          Git, JIRA (Agile/Scrum), NPM, Grunt, Gulp, Webpack, Babel, Visual Studio, Postman
           <br/>
           <br/>
           Digital Marketing:
           <br/>
-          SEO, Google Analytics, Mailchimp, A/B Testing
+          SEO, Google Analytics, Email Marketing, A/B Testing
           <br/>
           <br/>
           UX/Design:
@@ -86,7 +88,7 @@ const About = () =>
           <br/>
           CMS / Commerce:
           <br/>
-          Wordpress, EpiServer, Big Cartel
+          Wordpress, EpiServer, BigCartel
           <br/>
         </Column>
         <Column>
@@ -105,6 +107,8 @@ const About = () =>
           <br/>
           <br/>
           <b>DJ Mixes</b>
+          <br/>
+          2019 <a href="https://www.mixcloud.com/studiomosaic/side-trips-vol-ii-festival-flashbacks/" target="_blank">Side Trips Vol. II</a>
           <br />
           2017 <a href="http://studiomosaic.org/side-trips-vol-1" target="_blank">Side Trips Vol. I</a>
           <br />
@@ -123,7 +127,7 @@ const About = () =>
           <br/>
           <a href="https://dreamsofvinyl.net/" target="_blank">My Music Blog</a>
           <br/>
-          <a href="https://github.com/sternmd" target="_blank">Github</a>
+          <a href="https://github.com/sternmd" target="_blank">My Github</a>
         </Column>
       </Columns>
     </Container>
