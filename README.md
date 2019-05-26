@@ -1,6 +1,6 @@
 ## sternmd.works
 
-My personal portfolio site. Includes about me section, past work history, passion projects, services, and contact information.
+My personal portfolio site. Includes about me section, past work history, passion projects, services, and contact information. Visit at: [sternmd.works](https://sternmd.works/)
 
 ## Getting Started
 
@@ -33,8 +33,9 @@ npm run deploy
 - [Node.js](https://nodejs.org/en/) - A JavaScript runtime built on Chrome's V8 JavaScript engine
 - [React](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [Bloomer](https://bloomer.js.org/#/) - A set of React Stateless components
+- [Github Pages](https://pages.github.com/) - Websites hosted directly from your GitHub repository
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
