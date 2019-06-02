@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Columns, Column } from 'bloomer';
 
 class Films extends React.Component {
-    constructor(props) {
+  constructor(props) {
     super(props);
     this.films = [
       {
@@ -58,8 +58,8 @@ class Films extends React.Component {
         id: 'tt0243017'
       },
       {
-        title: 'Sans Soleil',
-        id: 'tt0084628'
+        title: 'There Will Be Blood',
+        id: 'tt0469494'
       },
       {
         title: 'Koyaanisqatsi',
@@ -85,47 +85,53 @@ class Films extends React.Component {
         title: 'Fargo',
         id: 'tt0116282'
       }
+
       // The Warriors tt0080120
       // No Country for Old Men tt0477348
-      // There Will Be Blood tt0469494
-      // The Wheel of Time tt0331080
     ];
 
     this.state = {
       imageUrls: []
-    }
+    };
   }
 
   shuffleArray(array) {
-  let i = array.length - 1;
-  for (; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const temp = array[i];
-    array[i] = array[j];
-    array[j] = temp;
-  }
-  return array;
+    let i = array.length - 1;
+    for (; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+    return array;
   }
 
   render() {
-     const api_key = process.env.REACT_APP_OMDB_API_KEY;
+    const api_key = process.env.REACT_APP_OMDB_API_KEY;
 
-     return (
-       <div>
-       <Container>
-         <br/>
-         <b>Favorite Films</b>
-         <Columns>
-          <Column isPaddingless="true">
-            {this.films.map(url => (
-              <img className="film" key={url.id} src={`https://img.omdbapi.com/?i=${url.id}&h=400&apikey=${api_key}`} alt="" />
-            ))}
-           </Column>
-         </Columns>
-       </Container>
-       </div>
-     )
-   }
+    return (
+      <div>
+        <Container>
+          <br />
+          <b>Favorite Films</b>
+          <Columns>
+            <Column isPaddingless='true'>
+              {this.films.map(url => (
+                <img
+                  className='film'
+                  key={url.id}
+                  src={`https://img.omdbapi.com/?i=${
+                    url.id
+                  }&h=400&apikey=${api_key}`}
+                  alt=''
+                />
+              ))}
+            </Column>
+          </Columns>
+        </Container>
+      </div>
+    );
+  }
 }
 
 export default Films;
