@@ -32,9 +32,9 @@ const Work = () => (
             <span class='red'>Some clients I've worked with include:</span>
             <br />
             Electrolux, Frigidaire, Verisk Analytics, TC Energy, Blue Buffalo,
-            Rain For Rent, Landry's, Verahill, Tucker Rocky, Symetra, Emergency
-            Medicine Foundation, New York Film Academy, Columbia School of
-            Social Work, New York Code + Design Academy, Factor75
+            Symetra, Verahill, Rain For Rent, Emergency Medicine Foundation, New
+            York Film Academy, Columbia School of Social Work, New York Code +
+            Design Academy, Factor75, GraphicSprings
           </p>
         </Column>
       </Columns>
