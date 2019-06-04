@@ -10,6 +10,8 @@ import ProjectStudioMosaic from './work/studiomosaic';
 import ProjectRoygbiv from './work/roygbiv';
 import ProjectMuCharts from './work/mucharts';
 import ProjectCaspian from './work/caspian';
+import ProjectRachRachArt from './work/rachrach';
+import ProjectDreamsOfVinyl from './work/dreamsofvinyl';
 import Widgets from './work/Widgets';
 
 const Work = () => (
@@ -46,10 +48,11 @@ const Work = () => (
         </Column>
       </Columns>
     </Container>
+
     <Container>
       <Columns>
         <Column>
-          <ProjectBeatitudes />
+          <ProjectStudioMosaic />
         </Column>
         <Column>
           <ProjectNimbusPrints />
@@ -60,10 +63,10 @@ const Work = () => (
     <Container>
       <Columns>
         <Column>
-          <ProjectStudioMosaic />
+          <ProjectRoygbiv />
         </Column>
         <Column>
-          <ProjectRoygbiv />
+          <ProjectRachRachArt />
         </Column>
       </Columns>
     </Container>
@@ -71,10 +74,21 @@ const Work = () => (
     <Container>
       <Columns>
         <Column>
-          <ProjectMuCharts />
+          <ProjectCaspian />
         </Column>
         <Column>
-          <ProjectCaspian />
+          <ProjectMuCharts />
+        </Column>
+      </Columns>
+    </Container>
+
+    <Container>
+      <Columns>
+        <Column>
+          <ProjectBeatitudes />
+        </Column>
+        <Column>
+          <ProjectDreamsOfVinyl />
         </Column>
       </Columns>
     </Container>

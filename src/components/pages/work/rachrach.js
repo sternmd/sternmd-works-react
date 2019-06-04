@@ -1,7 +1,7 @@
 import React from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectDreamsOfVinyl extends React.Component {
+class ProjectRachRachArt extends React.Component {
   render() {
     return (
       <div>
@@ -9,32 +9,30 @@ class ProjectDreamsOfVinyl extends React.Component {
           <MessageHeader>
             <p>
               <a
-                href='https://dreamsofvinyl.net'
+                href='https://rachrach.art/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Dreams of Vinyl
+                Rachel Rach Art
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
             <a
-              href='https://dreamsofvinyl.net'
+              href='https://rachrach.art/'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src='images/dreams-of-vinyl-min.png' alt='dreams of vinyl' />
+              <img src='images/rachel-rach-art-min.png' alt='Rachel Rach Art' />
             </a>
           </div>
           <MessageBody>
-            A daily music listening blog curated by yours truly. An exploration
-            of various sub-genres stemming from: rock, electronic, jazz, folk,
-            psychedelic, world, dub-reggae, avant-garde, and more.
+            Portfolio piece: A fresh contributor to the Chicago art scene,
+            Rachel Rach is no stranger to the art community while her creative
+            spark has been constant since she began producing during childhood.
             <br />
             <br />
-            <span className='built-with'>
-              Built With: HTML/CSS/Javascript, Masonry.js
-            </span>
+            <span className='built-with'>Built With: HTML/CSS/Javascript</span>
           </MessageBody>
         </Message>
       </div>
@@ -42,4 +40,4 @@ class ProjectDreamsOfVinyl extends React.Component {
   }
 }
 
-export default ProjectDreamsOfVinyl;
+export default ProjectRachRachArt;
