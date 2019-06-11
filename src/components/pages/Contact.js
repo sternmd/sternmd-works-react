@@ -20,13 +20,13 @@ const Contact = () => (
           </p>
 
           <p className='paddingTlg'>
-            <a href='mailto:stern.maxwell@gmail.com'>email </a>/{' '}
+            <a href='mailto:stern.maxwell@gmail.com'>Email </a>/{' '}
             <a
               target='_blank'
               href='https://www.linkedin.com/in/maxwellstern'
               rel='noopener noreferrer'
             >
-              linkedin{' '}
+              Linkedin{' '}
             </a>
             /{' '}
             <a
@@ -34,7 +34,7 @@ const Contact = () => (
               href='https://github.com/sternmd'
               rel='noopener noreferrer'
             >
-              github{' '}
+              Github{' '}
             </a>
           </p>
           <br />
