@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Columns, Column } from 'bloomer';
 import { Link } from 'react-router-dom';
 
+import Footer from '../layout/Footer';
 import BackArrow from '../layout/BackArrow';
 
 const Services = () => (
@@ -36,6 +37,7 @@ const Services = () => (
       </Columns>
     </Container>
     <BackArrow />
+    <Footer />
   </div>
 );
 

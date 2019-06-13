@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Columns, Column } from 'bloomer';
 
 import BackArrow from '../layout/BackArrow';
+import Footer from '../layout/Footer';
 
 const Contact = () => (
   <div>
@@ -43,6 +44,7 @@ const Contact = () => (
       </Columns>
     </Container>
     <BackArrow />
+    <Footer />
   </div>
 );
 
