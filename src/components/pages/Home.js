@@ -21,6 +21,26 @@ const Home = () => (
             </a>
           </p>
           <p>
+            Music blogger/geek at{' '}
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://dreamsofvinyl.net/'
+            >
+              Dreams of Vinyl
+            </a>
+          </p>
+          <p>
+            Wilderness photographer at{' '}
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://sterntravels.com'
+            >
+              Stern Travels
+            </a>
+          </p>
+          <p>
             Founder & screenprinter at{' '}
             <a
               target='_blank'
@@ -30,16 +50,7 @@ const Home = () => (
               Nimbus Prints
             </a>
           </p>
-          <p>
-            Daily music blogger/geek at{' '}
-            <a
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://dreamsofvinyl.net/'
-            >
-              Dreams of Vinyl
-            </a>
-          </p>
+
           <br />
           <br />
           <p>

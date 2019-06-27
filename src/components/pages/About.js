@@ -280,6 +280,14 @@ const About = () => (
           <Link to='/favorites'>My Favorite Things</Link>
           <br />
           <a
+            href='https://sterntravels.com/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            My Travel Blog
+          </a>
+          <br />
+          <a
             href='https://dreamsofvinyl.net/'
             target='_blank'
             rel='noopener noreferrer'
