@@ -15,22 +15,22 @@ const Services = () => (
             <br />
             <br />
             <span class='red'>
-              Web Design and Development.
+              eCommerce Solutions
               <br />
-              Search Engine Optimization (SEO).
+              Web Design & Development
               <br />
-              {/* Digital Marketing Strategy.
-              <br /> */}
-              Email & Social Media Marketing.
+              Digital Marketing Strategy & SEO
               <br />
-              Brand/Corporate Identity.
+              Email & Social Media Marketing
               <br />
-              Computer Lessons/Tutor.
+              Graphic Design & Photography
+              <br />
+              Computer Lessons & Tutorials
             </span>
             <br />
-            <br />I particularly enjoy working with startups, nonprofits, and
-            small business owners. I believe that honest dialogue with clients
-            and hard work are the keys to creating a remarkable product.{' '}
+            <br />I particularly enjoy working with startups, nonprofits, small
+            business owners, and seniors. I believe that honest dialogue with
+            clients and hard work are the keys to creating a remarkable product.{' '}
             <Link to='/contact'>Contact me</Link> anytime!
           </p>
         </Column>

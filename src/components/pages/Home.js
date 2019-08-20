@@ -21,7 +21,7 @@ const Home = () => (
             </a>
           </p>
           <p>
-            Music blogger/geek at{' '}
+            Music blogger at{' '}
             <a
               target='_blank'
               rel='noopener noreferrer'

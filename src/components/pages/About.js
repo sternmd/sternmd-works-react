@@ -10,19 +10,18 @@ const About = () => (
     <Container>
       <Columns>
         <Column isSize='1/3'>
-          <Image
-            className='is-hidden-mobile'
-            src='/images/sternmd-bw-min.jpg'
-          />
+          <Image className='is-hidden-mobile' src='/images/sternmd2.jpg' />
+          <br />
+          <Image className='is-hidden-mobile' src='/images/sternmd3.jpg' />
         </Column>
         <Column isSize='2/3'>
           <p>
-            Hello, I am a frontend web developer with 5+ years of professional
-            agency experience living in Portland. I build mobile-friendly
-            websites and apps for clients from a range of fields. I am eager to
-            learn new technologies and best design practices. Whether it’s
-            full-time work, a freelance/contract job, or any other creative
-            project – I'm open for collaborations of all kind.
+            Hello, I am a web developer and creative freelancer living in
+            Portland. I build mobile-friendly websites and apps for clients from
+            a range of fields. I specialize in frontend web technology, digital
+            marketing, and e-commerce solutions. Whether it’s full-time work, a
+            freelance/contract job, or any other art project – I'm open for
+            collaborations of all kind!
           </p>
         </Column>
       </Columns>
@@ -150,28 +149,28 @@ const About = () => (
           Languages/Frameworks:
           <br />
           HTML, CSS (SCSS/LESS), JavaScript, jQuery, Vue, React, Node/Express
-          (MERN)
           <br />
           <br />
-          Build Tools & Version Control:
+          Project Management & Build Tools:
           <br />
-          Git, JIRA (Agile/Scrum), NPM, Grunt, Gulp, Webpack, Babel, Visual
-          Studio, Postman
+          Git, JIRA (Agile), Trello, NPM, Grunt, Gulp, Webpack, Babel, Visual
+          Studio
           <br />
           <br />
           Digital Marketing:
           <br />
-          SEO, Google Analytics, Email Marketing, A/B Testing
+          SEO/SEM, Google Analytics, Email Marketing, A/B Testing
+          <br />
+          <br />
+          CMS / eCommerce:
+          <br />
+          Wordpress, Shopify, EpiServer, BigCartel, Etsy, Squarespace
           <br />
           <br />
           UX/Design:
           <br />
-          Adobe Photoshop, Illustrator, GSAP
+          Adobe Photoshop, Illustrator, Lightroom, Prototyping
           <br />
-          <br />
-          CMS / Commerce:
-          <br />
-          Wordpress, EpiServer, BigCartel
           <br />
         </Column>
         <Column>

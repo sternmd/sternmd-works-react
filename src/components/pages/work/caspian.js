@@ -34,7 +34,7 @@ class ProjectCaspian extends React.Component {
             <br />
             <br />
             <span className='built-with'>
-              Built With: Ruby/Sinatra, HTML/CSS/JavaScript
+              Built With: Ruby/Sinatra, HTML/CSS
             </span>
             <a
               className='button btn-github is-pulled-right'

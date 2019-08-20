@@ -15,14 +15,22 @@ class Footer extends React.Component {
                 target='_blank'
               >
                 React
-              </a>{' '}
-              and{' '}
+              </a>
+              ,{' '}
               <a
                 href='https://bloomer.js.org/#/'
                 rel='noopener noreferrer'
                 target='_blank'
               >
                 Bloomer
+              </a>
+              , and{' '}
+              <a
+                href='https://pages.github.com/'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                GitHub Pages
               </a>
               .
               <br />

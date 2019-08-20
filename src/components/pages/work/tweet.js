@@ -1,7 +1,7 @@
 import React from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class NbaSPA extends React.Component {
+class Tweet extends React.Component {
   render() {
     return (
       <div>
@@ -9,28 +9,30 @@ class NbaSPA extends React.Component {
           <MessageHeader>
             <p>
               <a
-                href='https://github.com/sternmd/react-nba-spa'
+                href='https://github.com/sternmd/react-tweet'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                NBA Stats React
+                Twitter LiveStream
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
-            <a href='https://github.com/sternmd/react-nba-spa' target='_blank'>
-              <img src='images/nba-spa.png' alt='NBA SPA' />
+            <a href='https://github.com/sternmd/react-tweet' target='_blank'>
+              <img src='images/tweet.png' alt='React Tweet' />
             </a>
           </div>
           <MessageBody>
-            Uses JSON dummy data to pull stats from basketball teams, players,
-            and videos.
+            This app displays latest matching tweets (in real-time) based on the
+            user's search input.
             <br />
             <br />
-            <span className='built-with'>Built With: React</span>
+            <span className='built-with'>
+              Built With: React, Node/Express, Socket.io
+            </span>
             <a
               className='button btn-github is-pulled-right'
-              href='https://github.com/sternmd/react-nba-spa'
+              href='https://github.com/sternmd/react-tweet'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -46,4 +48,4 @@ class NbaSPA extends React.Component {
   }
 }
 
-export default NbaSPA;
+export default Tweet;
