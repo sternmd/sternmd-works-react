@@ -10,16 +10,7 @@ const Home = () => (
           <p>Maxwell Stern</p>
           <br />
           <p>Web developer and designer</p>
-          <p>
-            Co-founder &amp; artist at{' '}
-            <a
-              target='_blank'
-              rel='noopener noreferrer'
-              href='http://studiomosaic.org/'
-            >
-              Studio Mosaic
-            </a>
-          </p>
+          <br />
           <p>
             Music blogger at{' '}
             <a
@@ -28,6 +19,16 @@ const Home = () => (
               href='https://dreamsofvinyl.net/'
             >
               Dreams of Vinyl
+            </a>
+          </p>
+          <p>
+            Co-founder &amp; artist at{' '}
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='http://studiomosaic.org/'
+            >
+              Studio Mosaic
             </a>
           </p>
           <p>
