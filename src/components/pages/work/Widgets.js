@@ -31,6 +31,7 @@ class Widgets extends React.Component {
                   <a
                     href='https://github.com/sternmd/react-tweet'
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <img src='images/tweet.png' alt='React Tweet' />
                   </a>
@@ -56,6 +57,8 @@ class Widgets extends React.Component {
                   </a>
                 </MessageBody>
               </Message>
+            </Column>
+            <Column>
               <Message isColor='dark'>
                 <MessageHeader>
                   <p>
@@ -114,12 +117,14 @@ class Widgets extends React.Component {
                 </MessageBody>
               </Message>
             </Column>
+          </Columns>
+          <Columns>
             <Column>
               <Message isColor='dark'>
                 <MessageHeader>
                   <p>
                     <a href='https://codepen.io/sternmd/full/gxLzmX'>
-                      Vue Calculator App
+                      Vue Calc App
                     </a>
                   </p>
                 </MessageHeader>
@@ -138,30 +143,51 @@ class Widgets extends React.Component {
                 </MessageBody>
               </Message>
             </Column>
-            {/* <Column>
+            <Column>
               <Message isColor='dark'>
                 <MessageHeader>
                   <p>
-                    <a href='https://codepen.io/sternmd/full/vJOmpe'>
-                      Twitch API Stream
+                    <a href='https://pig-dice.surge.sh/'>JS Dice Game</a>
+                  </p>
+                </MessageHeader>
+                <div className='message-image'>
+                  <a href='https://pig-dice.surge.sh/'>
+                    <img src='images/js-dice.png' alt='js-dice' />
+                  </a>
+                </div>
+                <MessageBody>
+                  The first player to reach 100 points on GLOBAL score wins the
+                  game
+                  <br />
+                  <br />
+                  <span className='built-with'>
+                    Built With: HTML/CSS, Javascript
+                  </span>
+                </MessageBody>
+              </Message>
+            </Column>
+            <Column>
+              <Message isColor='dark'>
+                <MessageHeader>
+                  <p>
+                    <a href='https://codepen.io/sternmd/full/rGQWBR'>
+                      SVG Flag Art
                     </a>
                   </p>
                 </MessageHeader>
                 <div className='message-image'>
-                  <a href='https://codepen.io/sternmd/full/vJOmpe'>
-                    <img src='images/twitch.png' alt='twitch' />
+                  <a href='https://codepen.io/sternmd/full/rGQWBR'>
+                    <img src='images/svg-flags.png' alt='svg flags' />
                   </a>
                 </div>
                 <MessageBody>
-                  Ajax practice. Track your favorite twitch channels!
+                  Selected country flags in SVG rendering.
                   <br />
                   <br />
-                  <span className='built-with'>
-                    Built With: jQuery/Ajax, HTML/CSS
-                  </span>
+                  <span className='built-with'>Built With: HTML/SVG</span>
                 </MessageBody>
               </Message>
-            </Column> */}
+            </Column>
           </Columns>
         </Container>
       </div>
