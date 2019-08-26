@@ -156,8 +156,7 @@ class Widgets extends React.Component {
                   </a>
                 </div>
                 <MessageBody>
-                  The first player to reach 100 points on GLOBAL score wins the
-                  game
+                  The first player to score 100 points wins the game.
                   <br />
                   <br />
                   <span className='built-with'>
