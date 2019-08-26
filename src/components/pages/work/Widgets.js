@@ -23,7 +23,7 @@ class Widgets extends React.Component {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      Twitter Real-Time
+                      Tweet LiveStream
                     </a>
                   </p>
                 </MessageHeader>
@@ -60,22 +60,23 @@ class Widgets extends React.Component {
                 <MessageHeader>
                   <p>
                     <a href='https://github.com/sternmd/react-nba-spa'>
-                      NBA Stats Reader
+                      NBA Stats App
                     </a>
                   </p>
                 </MessageHeader>
                 <div className='message-image'>
                   <a href='https://github.com/sternmd/react-nba-spa'>
-                    <img src='images/nba-spa.png' alt='NBA SPA' />
+                    <img src='images/nba-spa.jpg' alt='NBA SPA' />
                   </a>
                 </div>
                 <MessageBody>
-                  A practice mobile single-page application (SPA) using React.
-                  Uses JSON dummy data to pull stats from basketball teams,
-                  players, and videos.
+                  Fullstack mobile app that uses JSON dummy data to pull stats
+                  from basketball teams, players, and videos.
                   <br />
                   <br />
-                  <span className='built-with'>Built With: React</span>
+                  <span className='built-with'>
+                    Built With: React, FireBase
+                  </span>
                   <a
                     className='button btn-github is-pulled-right'
                     href='https://github.com/sternmd/react-nba-spa'
@@ -93,7 +94,7 @@ class Widgets extends React.Component {
                 <MessageHeader>
                   <p>
                     <a href='https://codepen.io/sternmd/full/rGKBrJ'>
-                      Pomodoro Timer
+                      Vue Pomodoro App
                     </a>
                   </p>
                 </MessageHeader>
@@ -118,7 +119,7 @@ class Widgets extends React.Component {
                 <MessageHeader>
                   <p>
                     <a href='https://codepen.io/sternmd/full/gxLzmX'>
-                      Vue Calculator
+                      Vue Calculator App
                     </a>
                   </p>
                 </MessageHeader>
@@ -137,7 +138,7 @@ class Widgets extends React.Component {
                 </MessageBody>
               </Message>
             </Column>
-            <Column>
+            {/* <Column>
               <Message isColor='dark'>
                 <MessageHeader>
                   <p>
@@ -160,7 +161,7 @@ class Widgets extends React.Component {
                   </span>
                 </MessageBody>
               </Message>
-            </Column>
+            </Column> */}
           </Columns>
         </Container>
       </div>

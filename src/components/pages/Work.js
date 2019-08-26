@@ -44,6 +44,16 @@ const Work = () => (
     <Container>
       <Columns>
         <Column>
+          <p>Personal Apps & Widgets:</p>
+        </Column>
+      </Columns>
+    </Container>
+    <Widgets />
+    <br />
+    <br />
+    <Container>
+      <Columns>
+        <Column>
           <p>Personal Projects:</p>
         </Column>
       </Columns>
@@ -92,16 +102,6 @@ const Work = () => (
         </Column>
       </Columns>
     </Container>
-    <br />
-    <br />
-    <Container>
-      <Columns>
-        <Column>
-          <p>Widgets:</p>
-        </Column>
-      </Columns>
-    </Container>
-    <Widgets />
 
     <BackArrow />
     <Footer />

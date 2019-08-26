@@ -1,12 +1,13 @@
 .message-body {
   border-style: none;
+  overflow: hidden;
   // font-family: "Work Sans";
 }
 
 .message-image {
   overflow: hidden;
   img {
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
   img:hover {
     transform: scale(1.1);
@@ -14,7 +15,7 @@
 }
 
 .message-header {
-  transition: all ease .75s;
+  transition: all ease 0.75s;
   background-color: $dark !important;
   border-radius: none;
   margin-left: -1em;
@@ -22,18 +23,20 @@
 }
 .message-header p {
   font-size: 40px;
-  transition: all ease .75s;
-  margin-bottom: -.25em;
+  transition: all ease 0.75s;
+  margin-bottom: -0.25em;
 }
 
 .built-with {
-  transition: all ease .75s;
+  transition: all ease 0.75s;
   text-transform: uppercase;
   font-size: smaller;
   color: $scarlet;
 }
 
-.field.is-grouped { display: none;}
+.field.is-grouped {
+  display: none;
+}
 
 .btn-github {
   margin-right: -1em;
