@@ -30,7 +30,13 @@ const About = () => (
         <Column>
           <b>Professional</b>
           <br />
-          2016-2018 Frontend Developer at{' '}
+          <span class='grey'>2018-present</span>
+          <br />
+          Freelance Web Developer / Designer
+          <br />
+          <span class='grey'>2016-2018</span>
+          <br />
+          Frontend Developer at{' '}
           <a
             href='https://makingwaves.com/'
             target='_blank'
@@ -39,7 +45,9 @@ const About = () => (
             Making Waves
           </a>
           <br />
-          2015-2016 Digital Marketing & SEO Manager at{' '}
+          <span class='grey'>2015-2016</span>
+          <br />
+          Digital Marketing & SEO Manager at{' '}
           <a
             href='https://www.perfectsearchmedia.com/'
             target='_blank'
@@ -48,14 +56,28 @@ const About = () => (
             Perfect Search Media
           </a>
           <br />
-          2014-2015 SEO Analyst at Perfect Search
+          <span class='grey'>2014-2015</span>
+          <br />
+          SEO Analyst at Perfect Search Media
           <br />
           <br />
           <b>Entrepreneurship</b>
           <br />
-          2015-present Freelance Web Design & Development
+          <span class='grey'>2019-present</span>
           <br />
-          2012-present Co-founder at{' '}
+          Wilderness Photographer at{' '}
+          <a
+            href='https://sterntravels.com'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            {' '}
+            Stern Travels
+          </a>
+          <br />
+          <span class='grey'>2012-present</span>
+          <br />
+          Co-founder at{' '}
           <a
             href='http://studiomosaic.org'
             target='_blank'
@@ -64,7 +86,8 @@ const About = () => (
             Studio Mosaic
           </a>
           <br />
-          2007-present Founder at{' '}
+          <span class='grey'>2007-present</span>
+          <br /> Founder at{' '}
           <a
             href='https://www.nimbusprints.com/'
             target='_blank'
@@ -76,7 +99,9 @@ const About = () => (
           <br />
           <b>Internship</b>
           <br />
-          2013 Web Analytics Intern at{' '}
+          <span class='grey'>Summer 2013</span>
+          <br />
+          Web Analytics Intern at{' '}
           <a
             href='https://www.cars.com/'
             target='_blank'
@@ -90,7 +115,9 @@ const About = () => (
         <Column>
           <b>Education</b>
           <br />
-          2016 Full-Stack Web Development Immersive at{' '}
+          <span class='grey'>2016</span>
+          <br />
+          Full-Stack Web Development Immersive at{' '}
           <a
             target='_blank'
             href='https://generalassemb.ly/'
@@ -99,7 +126,9 @@ const About = () => (
             General Assembly
           </a>
           <br />
-          2010-2014 Bachelor of Arts (B.A.), Finance, Music at{' '}
+          <span class='grey'>2010-2014</span>
+          <br />
+          Bachelor of Arts (B.A.), Finance, Music at{' '}
           <a
             target='_blank'
             href='https://www.lakeforest.edu/'
@@ -111,7 +140,9 @@ const About = () => (
           <br />
           <b>Volunteer</b>
           <br />
-          2019-present Trail Ambassador at{' '}
+          <span class='grey'>2019-present</span>
+          <br />
+          Trail Ambassador at{' '}
           <a
             href='https://www.forestparkconservancy.org/'
             target='_blank'
@@ -120,7 +151,9 @@ const About = () => (
             Forest Park Conservancy
           </a>
           <br />
-          2018-present Digital Web Volunteer at{' '}
+          <span class='grey'>2018-present</span>
+          <br />
+          Digital Web Volunteer at{' '}
           <a
             href='https://www.nps.gov'
             target='_blank'
@@ -129,16 +162,9 @@ const About = () => (
             National Park Service
           </a>
           <br />
-          2018-present Dedicated Contributor at{' '}
-          <a
-            href='http://jfwiki.org/index.php'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Joe Frank Wiki
-          </a>
+          <span class='grey'>2011-2014</span>
           <br />
-          2011-2014 Director of Electronic Music at{' '}
+          Director of Electronic Music at{' '}
           <a href='https://wmxm.org/' target='_blank' rel='noopener noreferrer'>
             WMXM 88.9FM
           </a>
@@ -146,28 +172,28 @@ const About = () => (
         <Column>
           <b>Technologies & Skills</b>
           <br />
-          Languages/Frameworks:
+          <span class='grey'>Languages/Frameworks:</span>
           <br />
           HTML, CSS (SCSS/LESS), JavaScript, jQuery, Vue, React, Node/Express
           <br />
           <br />
-          Project Management & Build Tools:
+          <span class='grey'>Project Management & Build Tools:</span>
           <br />
-          Git, JIRA (Agile), Trello, NPM, Grunt, Gulp, Webpack, Babel, Visual
+          Git, JIRA (Agile), Trello, NPM/Yarn, Grunt/Gulp, Webpack, Visual
           Studio
           <br />
           <br />
-          Digital Marketing:
+          <span class='grey'>Digital Marketing:</span>
           <br />
-          SEO/SEM, Google Analytics, Email Marketing, A/B Testing
+          SEO/SEM, Google Analytics, Email Marketing (Mailchimp), A/B Testing
           <br />
           <br />
-          CMS / eCommerce:
+          <span class='grey'>CMS / eCommerce:</span>
           <br />
           Wordpress, Shopify, EpiServer, BigCartel, Etsy, Squarespace
           <br />
           <br />
-          UX/Design:
+          <span class='grey'>UX/Design:</span>
           <br />
           Adobe Photoshop, Illustrator, Lightroom, Prototyping
           <br />
