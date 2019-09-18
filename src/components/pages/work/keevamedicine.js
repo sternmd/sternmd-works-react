@@ -1,7 +1,7 @@
 import React from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectRachRachArt extends React.Component {
+class ProjectKeevaMedicine extends React.Component {
   render() {
     return (
       <div>
@@ -9,30 +9,31 @@ class ProjectRachRachArt extends React.Component {
           <MessageHeader>
             <p>
               <a
-                href='https://rachrach.art/'
+                href='http://keevamedicine.com/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Rachel Rach Art
+                Keeva Medicine
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
             <a
-              href='https://rachrach.art/'
+              href='http://keevamedicine.com/'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src='images/rachel-rach-art-min.png' alt='Rachel Rach Art' />
+              <img src='images/keevamedicine.png' alt='Aidan Keeva Medicine' />
             </a>
           </div>
           <MessageBody>
-            A fresh contributor to the Chicago art scene, Rachel Rach is no
-            stranger to the art community while her creative spark has been
-            constant since she began producing during childhood.
+            The healing offerings of Aidan Keeva, Lic. Ac. DACM. A practitioner
+            of the ancient art of classical Chinese Medicine.
             <br />
             <br />
-            <span className='built-with'>Built With: HTML/CSS/Javascript</span>
+            <span className='built-with'>
+              Built With: Wordpress, HTML/CSS/Javascript
+            </span>
           </MessageBody>
         </Message>
       </div>
@@ -40,4 +41,4 @@ class ProjectRachRachArt extends React.Component {
   }
 }
 
-export default ProjectRachRachArt;
+export default ProjectKeevaMedicine;

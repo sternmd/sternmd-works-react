@@ -12,6 +12,7 @@ import ProjectMuCharts from './work/mucharts';
 import ProjectCaspian from './work/caspian';
 import ProjectRachRachArt from './work/rachrach';
 import ProjectDreamsOfVinyl from './work/dreamsofvinyl';
+import ProjectKeevaMedicine from './work/keevamedicine';
 import Widgets from './work/Widgets';
 
 const Work = () => (
@@ -54,7 +55,7 @@ const Work = () => (
     <Container>
       <Columns>
         <Column>
-          <p>Personal Projects:</p>
+          <p>Personal & Freelance Web Projects:</p>
         </Column>
       </Columns>
     </Container>
@@ -84,6 +85,17 @@ const Work = () => (
     <Container>
       <Columns>
         <Column>
+          <ProjectDreamsOfVinyl />
+        </Column>
+        <Column>
+          <ProjectKeevaMedicine />
+        </Column>
+      </Columns>
+    </Container>
+
+    <Container>
+      <Columns>
+        <Column>
           <ProjectCaspian />
         </Column>
         <Column>
@@ -97,9 +109,7 @@ const Work = () => (
         <Column>
           <ProjectBeatitudes />
         </Column>
-        <Column>
-          <ProjectDreamsOfVinyl />
-        </Column>
+        <Column></Column>
       </Columns>
     </Container>
 

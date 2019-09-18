@@ -30,7 +30,7 @@ class ProjectNimbusPrints extends React.Component {
             Founded in 2014, Nimbus Prints began as a fan art project inspired
             by music, film, anime, and pop culture. Today, we have evolved into
             an experimental printshop, striving to create original, limited
-            edition print series with artists in Chicago.
+            edition print series with artists in Chicago/Portland.
             <br />
             <br />
             <span className='built-with'>Built With: BigCartel, HTML/CSS</span>
