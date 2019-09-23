@@ -13,6 +13,7 @@ import ProjectCaspian from './work/caspian';
 import ProjectRachRachArt from './work/rachrach';
 import ProjectDreamsOfVinyl from './work/dreamsofvinyl';
 import ProjectKeevaMedicine from './work/keevamedicine';
+import ProjectElectrifyingTransit from './work/electrifyingtransit';
 import Widgets from './work/Widgets';
 
 const Work = () => (
@@ -77,7 +78,7 @@ const Work = () => (
           <ProjectRoygbiv />
         </Column>
         <Column>
-          <ProjectRachRachArt />
+          <ProjectElectrifyingTransit />
         </Column>
       </Columns>
     </Container>
@@ -96,7 +97,7 @@ const Work = () => (
     <Container>
       <Columns>
         <Column>
-          <ProjectCaspian />
+          <ProjectRachRachArt />
         </Column>
         <Column>
           <ProjectMuCharts />
@@ -109,7 +110,9 @@ const Work = () => (
         <Column>
           <ProjectBeatitudes />
         </Column>
-        <Column></Column>
+        <Column>
+          <ProjectCaspian />
+        </Column>
       </Columns>
     </Container>
 
