@@ -174,7 +174,8 @@ const About = () => (
           <br />
           <span class='grey'>Languages/Frameworks:</span>
           <br />
-          HTML, CSS (SCSS/LESS), JavaScript, jQuery, Vue, React, Node/Express
+          HTML, CSS (SCSS/LESS), JavaScript (ES6+), jQuery, Vue, React/Redux,
+          Node/Express
           <br />
           <br />
           <span class='grey'>Project Management & Build Tools:</span>
