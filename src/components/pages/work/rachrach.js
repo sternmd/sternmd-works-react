@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectRachRachArt extends React.Component {
+class ProjectRachRachArt extends Component {
   render() {
     return (
       <div>

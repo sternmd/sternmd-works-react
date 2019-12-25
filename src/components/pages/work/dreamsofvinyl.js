@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectDreamsOfVinyl extends React.Component {
+class ProjectDreamsOfVinyl extends Component {
   render() {
     return (
       <div>

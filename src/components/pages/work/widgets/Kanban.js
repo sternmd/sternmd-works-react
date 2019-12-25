@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class Tweet extends React.Component {
+class Kanban extends Component {
   render() {
     return (
       <div>
@@ -9,30 +9,32 @@ class Tweet extends React.Component {
           <MessageHeader>
             <p>
               <a
-                href='https://github.com/sternmd/react-tweet'
+                href='https://github.com/sternmd/redux-kanban'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Twitter LiveStream
+                React/Redux Kanban
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
-            <a href='https://github.com/sternmd/react-tweet' target='_blank'>
-              <img src='images/tweet.png' alt='React Tweet' />
+            <a
+              href='https://github.com/sternmd/redux-kanban'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='images/kanban.png' alt='React Kanban' />
             </a>
           </div>
           <MessageBody>
-            This app displays latest matching tweets (in real-time) based on the
-            user's search input.
+            A kanban board is an agile project management tool designed to help
+            visualize work, limit work-in-progress, and maximize efficiency.
             <br />
             <br />
-            <span className='built-with'>
-              Built With: React, Node/Express, Socket.io
-            </span>
+            <span className='built-with'>Built With: React/Redux</span>
             <a
               className='button btn-github is-pulled-right'
-              href='https://github.com/sternmd/react-tweet'
+              href='https://github.com/sternmd/redux-kanban'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -48,4 +50,4 @@ class Tweet extends React.Component {
   }
 }
 
-export default Tweet;
+export default Kanban;

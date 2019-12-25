@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectCaspian extends React.Component {
+class ProjectCaspian extends Component {
   render() {
     return (
       <div>

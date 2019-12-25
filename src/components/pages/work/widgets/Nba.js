@@ -1,38 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class NbaSPA extends React.Component {
+class Nba extends Component {
   render() {
     return (
       <div>
         <Message isColor='dark'>
           <MessageHeader>
             <p>
-              <a
-                href='https://github.com/sternmd/react-nba-spa'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                NBA Stats React
+              <a href='https://github.com/sternmd/react-nba-spa'>
+                NBA Stats App
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
-            <a href='https://github.com/sternmd/react-nba-spa' target='_blank'>
-              <img src='images/nba-spa.png' alt='NBA SPA' />
+            <a href='https://github.com/sternmd/react-nba-spa'>
+              <img src='images/nba-spa.jpg' alt='NBA SPA' />
             </a>
           </div>
           <MessageBody>
-            Uses JSON dummy data to pull stats from basketball teams, players,
-            and videos.
+            Fullstack mobile app that uses JSON dummy data to pull stats from
+            basketball teams, players, and videos.
             <br />
             <br />
-            <span className='built-with'>Built With: React</span>
+            <span className='built-with'>Built With: React, FireBase</span>
             <a
               className='button btn-github is-pulled-right'
               href='https://github.com/sternmd/react-nba-spa'
-              target='_blank'
-              rel='noopener noreferrer'
             >
               <span className='icon'>
                 <i className='fab fa-github' />
@@ -46,4 +40,4 @@ class NbaSPA extends React.Component {
   }
 }
 
-export default NbaSPA;
+export default Nba;

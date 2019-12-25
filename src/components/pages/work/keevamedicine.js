@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectKeevaMedicine extends React.Component {
+class ProjectKeevaMedicine extends Component {
   render() {
     return (
       <div>

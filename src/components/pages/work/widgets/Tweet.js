@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectBeatitudes extends Component {
+class Tweet extends Component {
   render() {
     return (
       <div>
@@ -9,36 +9,36 @@ class ProjectBeatitudes extends Component {
           <MessageHeader>
             <p>
               <a
-                href='https://beatitudes.herokuapp.com/'
+                href='https://github.com/sternmd/react-tweet'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Beatitudes
+                Tweet LiveStream
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
             <a
-              href='https://beatitudes.herokuapp.com/'
+              href='https://github.com/sternmd/react-tweet'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src='images/beatitudes.png' alt='beatitudes' />
+              <img src='images/tweet.png' alt='React Tweet' />
             </a>
           </div>
           <MessageBody>
-            Beatitudes is a web app that displays famous quotes and novels by
-            popular Beat Generation writers. You dig?
+            This app displays latest matching tweets (in real-time) based on the
+            user's search input.
             <br />
             <br />
             <span className='built-with'>
-              Built With: Node/Express, HTML/CSS/JavaScript, Less
+              Built With: React/Express, Socket.io
             </span>
             <a
               className='button btn-github is-pulled-right'
-              href='https://github.com/sternmd/beatitudes'
-              rel='noopener noreferrer'
+              href='https://github.com/sternmd/react-tweet'
               target='_blank'
+              rel='noopener noreferrer'
             >
               <span className='icon'>
                 <i className='fab fa-github' />
@@ -52,4 +52,4 @@ class ProjectBeatitudes extends Component {
   }
 }
 
-export default ProjectBeatitudes;
+export default Tweet;
