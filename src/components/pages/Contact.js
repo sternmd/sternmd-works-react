@@ -43,6 +43,7 @@ const Contact = () => (
         </Column>
       </Columns>
     </Container>
+
     <BackArrow />
     <Footer />
   </div>

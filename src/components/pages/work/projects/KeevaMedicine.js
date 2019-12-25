@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectElectrifyingTransit extends Component {
+export default class KeevaMedicine extends Component {
   render() {
     return (
       <div>
@@ -9,29 +9,26 @@ class ProjectElectrifyingTransit extends Component {
           <MessageHeader>
             <p>
               <a
-                href='http://electrifyingtransit.org/'
+                href='http://keevamedicine.com/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Electrifying Transit
+                Keeva Medicine
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
             <a
-              href='http://electrifyingtransit.org/'
+              href='http://keevamedicine.com/'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img
-                src='images/electrifyingtransit-min.png'
-                alt='Electrifying Transit'
-              />
+              <img src='images/keevamedicine.png' alt='Aidan Keeva Medicine' />
             </a>
           </div>
           <MessageBody>
-            Supporting the electrification of school buses and public transit,
-            with a focus on the Northwest and social equity.
+            The healing offerings of Aidan Keeva, Lic. Ac. DACM. A practitioner
+            of the ancient art of classical Chinese Medicine.
             <br />
             <br />
             <span className='built-with'>
@@ -43,5 +40,3 @@ class ProjectElectrifyingTransit extends Component {
     );
   }
 }
-
-export default ProjectElectrifyingTransit;

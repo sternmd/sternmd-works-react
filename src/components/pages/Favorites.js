@@ -6,15 +6,17 @@ import Albums from '../layout/Albums';
 import Books from '../layout/Books';
 import Films from '../layout/Films';
 
-const Favorites = () =>
+const Favorites = () => (
   <div>
-      <Albums />
-      <br/>
-      <Films />
-      <br/>
-      <Books />
-      <BackArrow />
-      <Footer />
+    <Albums />
+    <br />
+    <Films />
+    <br />
+    <Books />
+
+    <BackArrow />
+    <Footer />
   </div>
+);
 
 export default Favorites;

@@ -4,16 +4,7 @@ import { Container, Columns, Column } from 'bloomer';
 import Footer from '../layout/Footer';
 import BackArrow from '../layout/BackArrow';
 
-import ProjectBeatitudes from './work/beatitudes';
-import ProjectNimbusPrints from './work/nimbusprints';
-import ProjectStudioMosaic from './work/studiomosaic';
-import ProjectRoygbiv from './work/roygbiv';
-import ProjectMuCharts from './work/mucharts';
-import ProjectCaspian from './work/caspian';
-import ProjectRachRachArt from './work/rachrach';
-import ProjectDreamsOfVinyl from './work/dreamsofvinyl';
-import ProjectKeevaMedicine from './work/keevamedicine';
-import ProjectElectrifyingTransit from './work/electrifyingtransit';
+import Projects from './work/Projects';
 import Widgets from './work/Widgets';
 
 const Work = () => (
@@ -50,6 +41,7 @@ const Work = () => (
         </Column>
       </Columns>
     </Container>
+
     <Widgets />
     <br />
     <br />
@@ -61,60 +53,7 @@ const Work = () => (
       </Columns>
     </Container>
 
-    <Container>
-      <Columns>
-        <Column>
-          <ProjectStudioMosaic />
-        </Column>
-        <Column>
-          <ProjectNimbusPrints />
-        </Column>
-      </Columns>
-    </Container>
-
-    <Container>
-      <Columns>
-        <Column>
-          <ProjectRoygbiv />
-        </Column>
-        <Column>
-          <ProjectElectrifyingTransit />
-        </Column>
-      </Columns>
-    </Container>
-
-    <Container>
-      <Columns>
-        <Column>
-          <ProjectDreamsOfVinyl />
-        </Column>
-        <Column>
-          <ProjectKeevaMedicine />
-        </Column>
-      </Columns>
-    </Container>
-
-    <Container>
-      <Columns>
-        <Column>
-          <ProjectRachRachArt />
-        </Column>
-        <Column>
-          <ProjectMuCharts />
-        </Column>
-      </Columns>
-    </Container>
-
-    <Container>
-      <Columns>
-        <Column>
-          <ProjectBeatitudes />
-        </Column>
-        <Column>
-          <ProjectCaspian />
-        </Column>
-      </Columns>
-    </Container>
+    <Projects />
 
     <BackArrow />
     <Footer />

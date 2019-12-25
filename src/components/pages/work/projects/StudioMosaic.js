@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectStudioMosaic extends Component {
+export default class StudioMosaic extends Component {
   render() {
     return (
       <div>
@@ -54,5 +54,3 @@ class ProjectStudioMosaic extends Component {
     );
   }
 }
-
-export default ProjectStudioMosaic;

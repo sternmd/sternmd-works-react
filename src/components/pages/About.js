@@ -331,6 +331,7 @@ const About = () => (
         </Column>
       </Columns>
     </Container>
+
     <BackArrow />
     <Footer />
   </div>

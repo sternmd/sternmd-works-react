@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectBeatitudes extends Component {
+export default class MuCharts extends Component {
   render() {
     return (
       <div>
@@ -9,36 +9,36 @@ class ProjectBeatitudes extends Component {
           <MessageHeader>
             <p>
               <a
-                href='https://beatitudes.herokuapp.com/'
+                href='https://github.com/Cams-Headphones-2/Client-app'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Beatitudes
+                /Mu/sic Charts
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
             <a
-              href='https://beatitudes.herokuapp.com/'
+              href='https://github.com/Cams-Headphones-2/Client-app'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src='images/beatitudes.png' alt='beatitudes' />
+              <img src='images/mucharts.png' alt='mucharts' />
             </a>
           </div>
           <MessageBody>
-            Beatitudes is a web app that displays famous quotes and novels by
-            popular Beat Generation writers. You dig?
+            /Mu/sic Charts is an app that allows users to build and share music
+            album flowcharts.
             <br />
             <br />
             <span className='built-with'>
-              Built With: Node/Express, HTML/CSS/JavaScript, Less
+              Built With: Node/Express, React, MongoDB, HTML/CSS/JS
             </span>
             <a
               className='button btn-github is-pulled-right'
-              href='https://github.com/sternmd/beatitudes'
-              rel='noopener noreferrer'
+              href='https://github.com/Cams-Headphones-2/Client-app'
               target='_blank'
+              rel='noopener noreferrer'
             >
               <span className='icon'>
                 <i className='fab fa-github' />
@@ -51,5 +51,3 @@ class ProjectBeatitudes extends Component {
     );
   }
 }
-
-export default ProjectBeatitudes;

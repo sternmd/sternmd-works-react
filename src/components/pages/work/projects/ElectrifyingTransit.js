@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectRachRachArt extends Component {
+export default class ElectrifyingTransit extends Component {
   render() {
     return (
       <div>
@@ -9,35 +9,37 @@ class ProjectRachRachArt extends Component {
           <MessageHeader>
             <p>
               <a
-                href='https://rachrach.art/'
+                href='http://electrifyingtransit.org/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Rachel Rach Art
+                Electrifying Transit
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
             <a
-              href='https://rachrach.art/'
+              href='http://electrifyingtransit.org/'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src='images/rachel-rach-art-min.png' alt='Rachel Rach Art' />
+              <img
+                src='images/electrifyingtransit-min.png'
+                alt='Electrifying Transit'
+              />
             </a>
           </div>
           <MessageBody>
-            A fresh contributor to the Chicago art scene, Rachel Rach is no
-            stranger to the art community while her creative spark has been
-            constant since she began producing during childhood.
+            Supporting the electrification of school buses and public transit,
+            with a focus on the Northwest and social equity.
             <br />
             <br />
-            <span className='built-with'>Built With: HTML/CSS/Javascript</span>
+            <span className='built-with'>
+              Built With: Wordpress, HTML/CSS/Javascript
+            </span>
           </MessageBody>
         </Message>
       </div>
     );
   }
 }
-
-export default ProjectRachRachArt;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectKeevaMedicine extends Component {
+export default class DreamsOfVinyl extends Component {
   render() {
     return (
       <div>
@@ -9,30 +9,31 @@ class ProjectKeevaMedicine extends Component {
           <MessageHeader>
             <p>
               <a
-                href='http://keevamedicine.com/'
+                href='https://dreamsofvinyl.net'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Keeva Medicine
+                Dreams of Vinyl
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
             <a
-              href='http://keevamedicine.com/'
+              href='https://dreamsofvinyl.net'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src='images/keevamedicine.png' alt='Aidan Keeva Medicine' />
+              <img src='images/dreams-of-vinyl-min.png' alt='dreams of vinyl' />
             </a>
           </div>
           <MessageBody>
-            The healing offerings of Aidan Keeva, Lic. Ac. DACM. A practitioner
-            of the ancient art of classical Chinese Medicine.
+            A daily music listening blog curated by yours truly. An exploration
+            of various sub-genres stemming from: rock, electronic, jazz, folk,
+            psychedelic, world, dub-reggae, avant-garde, and more.
             <br />
             <br />
             <span className='built-with'>
-              Built With: Wordpress, HTML/CSS/Javascript
+              Built With: HTML/CSS/Javascript, Masonry.js
             </span>
           </MessageBody>
         </Message>
@@ -40,5 +41,3 @@ class ProjectKeevaMedicine extends Component {
     );
   }
 }
-
-export default ProjectKeevaMedicine;

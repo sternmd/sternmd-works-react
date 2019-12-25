@@ -8,7 +8,9 @@ export default class Pomodoro extends Component {
         <Message isColor='dark'>
           <MessageHeader>
             <p>
-              <a href='https://codepen.io/sternmd/full/rGKBrJ'>Vue Timer</a>
+              <a href='https://codepen.io/sternmd/full/rGKBrJ'>
+                Pomodoro Timer
+              </a>
             </p>
           </MessageHeader>
           <div className='message-image'>

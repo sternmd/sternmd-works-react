@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectRoygbiv extends Component {
+export default class Roygbiv extends Component {
   render() {
     return (
       <div>
@@ -37,5 +37,3 @@ class ProjectRoygbiv extends Component {
     );
   }
 }
-
-export default ProjectRoygbiv;

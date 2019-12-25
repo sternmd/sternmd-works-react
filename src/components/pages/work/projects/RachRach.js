@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectNimbusPrints extends Component {
+export default class RachRachArt extends Component {
   render() {
     return (
       <div>
@@ -9,36 +9,33 @@ class ProjectNimbusPrints extends Component {
           <MessageHeader>
             <p>
               <a
-                href='http://nimbusprints.com'
+                href='https://rachrach.art/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Nimbus Prints
+                Rachel Rach Art
               </a>
             </p>
           </MessageHeader>
           <div className='message-image'>
             <a
-              href='http://nimbusprints.com'
+              href='https://rachrach.art/'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src='images/nimbus.jpg' alt='nimbus prints' />
+              <img src='images/rachel-rach-art-min.png' alt='Rachel Rach Art' />
             </a>
           </div>
           <MessageBody>
-            Founded in 2014, Nimbus Prints began as a fan art project inspired
-            by music, film, anime, and pop culture. Today, we have evolved into
-            an experimental printshop, striving to create original, limited
-            edition print series with artists in Chicago/Portland.
+            A fresh contributor to the Chicago art scene, Rachel Rach is no
+            stranger to the art community while her creative spark has been
+            constant since she began producing during childhood.
             <br />
             <br />
-            <span className='built-with'>Built With: BigCartel, HTML/CSS</span>
+            <span className='built-with'>Built With: HTML/CSS/Javascript</span>
           </MessageBody>
         </Message>
       </div>
     );
   }
 }
-
-export default ProjectNimbusPrints;

@@ -13,7 +13,7 @@ class Kanban extends Component {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                React/Redux Kanban
+                React Kanban
               </a>
             </p>
           </MessageHeader>

@@ -5,9 +5,7 @@ import {
   Kanban,
   Tweet,
   Calculator,
-  Dice,
-  Pomodoro,
-  Flags
+  Pomodoro
 } from './widgets/index.js';
 
 import { Container, Columns, Column } from 'bloomer';
@@ -19,30 +17,25 @@ class Widgets extends Component {
         <Container>
           <Columns>
             <Column>
-              <Kanban />
-            </Column>
-            <Column>
               <Tweet />
             </Column>
             <Column>
-              <Nba />
+              <Kanban />
             </Column>
             <Column>
               <Ascend />
             </Column>
           </Columns>
+
           <Columns>
             <Column>
               <Calculator />
             </Column>
             <Column>
-              <Dice />
+              <Nba />
             </Column>
             <Column>
               <Pomodoro />
-            </Column>
-            <Column>
-              <Flags />
             </Column>
           </Columns>
         </Container>
