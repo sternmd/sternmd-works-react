@@ -3,7 +3,6 @@ import { Container, Columns, Column } from 'bloomer';
 
 import Footer from '../layout/Footer';
 import BackArrow from '../layout/BackArrow';
-
 import Projects from './work/Projects';
 import Widgets from './work/Widgets';
 

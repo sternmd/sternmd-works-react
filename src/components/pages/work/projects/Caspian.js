@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Message, MessageBody, MessageHeader } from 'bloomer';
 
-class ProjectCaspian extends Component {
+export default class Caspian extends Component {
   render() {
     return (
       <div>
@@ -53,5 +53,3 @@ class ProjectCaspian extends Component {
     );
   }
 }
-
-export default ProjectCaspian;

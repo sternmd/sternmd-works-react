@@ -115,6 +115,17 @@ const About = () => (
         <Column>
           <b>Education</b>
           <br />
+          <span class='grey'>2020</span>
+          <br />
+          Associate's (A.A.S.), Cybersecurity, Computer Information Systems at{' '}
+          <a
+            target='_blank'
+            href='https://www.pcc.edu/'
+            rel='noopener noreferrer'
+          >
+            PCC
+          </a>
+          <br />
           <span class='grey'>2016</span>
           <br />
           Full-Stack Web Development Immersive at{' '}
@@ -140,7 +151,18 @@ const About = () => (
           <br />
           <b>Volunteer</b>
           <br />
-          <span class='grey'>2019-present</span>
+          <span class='grey'>2020-present</span>
+          <br />
+          React Developer at{' '}
+          <a
+            href='https://www.codeforamerica.org/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Code for PDX / Code for America Brigade
+          </a>
+          <br />
+          <span class='grey'>Summer 2019</span>
           <br />
           Trail Ambassador at{' '}
           <a
@@ -175,23 +197,22 @@ const About = () => (
           <span class='grey'>Languages/Frameworks:</span>
           <br />
           HTML, CSS (SCSS/LESS), JavaScript (ES6+), jQuery, Vue, React/Redux,
-          Node/Express
+          Node/Express, Linux/UNIX
           <br />
           <br />
-          <span class='grey'>Project Management & Build Tools:</span>
+          <span class='grey'>Project Management</span>
           <br />
-          Git, JIRA (Agile), Trello, NPM/Yarn, Grunt/Gulp, Webpack, Visual
-          Studio
+          Git, JIRA (Agile/Scrum), Trello (Kanban), NPM/Yarn, Grunt/Gulp/Webpack
           <br />
           <br />
           <span class='grey'>Digital Marketing:</span>
           <br />
-          SEO/SEM, Google Analytics, Email Marketing (Mailchimp), A/B Testing
+          SEO, Google Analytics, Email & Social Media Marketing
           <br />
           <br />
           <span class='grey'>CMS / eCommerce:</span>
           <br />
-          Wordpress, Shopify, EpiServer, BigCartel, Etsy, Squarespace
+          Wordpress, EpiServer, Shopify, Etsy, Big Cartel, Squarespace
           <br />
           <br />
           <span class='grey'>UX/Design:</span>

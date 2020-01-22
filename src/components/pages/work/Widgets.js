@@ -10,7 +10,7 @@ import {
 
 import { Container, Columns, Column } from 'bloomer';
 
-class Widgets extends Component {
+export default class Widgets extends Component {
   render() {
     return (
       <div>
@@ -43,5 +43,3 @@ class Widgets extends Component {
     );
   }
 }
-
-export default Widgets;
