@@ -115,7 +115,7 @@ const About = () => (
         <Column>
           <b>Education</b>
           <br />
-          <span class='grey'>2020</span>
+          <span class='grey'>2020-2021</span>
           <br />
           Associate's (A.A.S.), Cybersecurity, Computer Information Systems at{' '}
           <a
@@ -162,7 +162,7 @@ const About = () => (
             Code for PDX / Code for America Brigade
           </a>
           <br />
-          <span class='grey'>Summer 2019</span>
+          <span class='grey'>2019</span>
           <br />
           Trail Ambassador at{' '}
           <a
@@ -173,7 +173,7 @@ const About = () => (
             Forest Park Conservancy
           </a>
           <br />
-          <span class='grey'>2018-present</span>
+          <span class='grey'>2018</span>
           <br />
           Digital Web Volunteer at{' '}
           <a
